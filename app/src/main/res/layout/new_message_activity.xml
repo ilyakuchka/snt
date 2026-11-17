@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mms="http://schemas.android.com/apk/res-auto">
+    <com.android.mmt.ui.SizeAwareLinearLayout
+        android:orientation="vertical"
+        android:id="@+id/msg_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ViewStub
+                android:id="@+id/suggestion_list"
+                android:layout="@layout/new_message_suggest_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/ll_recent"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/recent_view_margin"
+                android:layout_marginStart="@dimen/item_horizontal_padding"
+                android:layout_marginEnd="@dimen/item_horizontal_padding">
+                <TextView
+                    android:textSize="@dimen/recent_contact_label_text_size"
+                    android:textColor="@color/recent_label_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recent_label"
+                    android:layout_marginStart="@dimen/new_message_contact_margin"/>
+                <com.android.mmt.ui.RowLayout
+                    android:id="@+id/recent_contact_grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    mms:horizontalSpacing="@dimen/new_message_contact_margin"
+                    mms:verticalSpacing="@dimen/item_vertical_margin"/>
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/message_edit_bottom_panel"/>
+        <ViewStub
+            android:id="@+id/message_edit_attachment_stub"
+            android:layout="@layout/message_edit_attachment_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.android.mmt.ui.SizeAwareLinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/new_message_contact_panel"/>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaults>
+    <entry>
+        <key>ad_switch
+        </key>
+        <value>true
+        </value>
+    </entry>
+    <entry>
+        <key>ad_expired_time
+        </key>
+        <value>3600000
+        </value>
+    </entry>
+    <entry>
+        <key>ad_show_type
+        </key>
+        <value>1
+        </value>
+    </entry>
+</defaults>

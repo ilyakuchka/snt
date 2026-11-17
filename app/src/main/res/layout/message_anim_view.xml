@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_anim_fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/original_text_container"
+        android:background="@drawable/message_card_original_text_bg"
+        android:padding="@dimen/card_original_text_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:alpha="0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/message_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0">
+            <com.android.mmt.ui.StaticTextView
+                android:textSize="@dimen/card_original_text_size"
+                android:textColor="@color/card_original_text_color"
+                android:autoLink="phone|email|web"
+                android:id="@+id/original_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:id="@+id/text_footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sms_card_understand_button_height"
+                    android:layout_marginTop="@dimen/card_button_margin_top">
+                    <include layout="@layout/card_original_text_button"/>
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

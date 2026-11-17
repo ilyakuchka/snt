@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="1px"
+    android:importantForAccessibility="no">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/security_alert"
+            android:visibility="gone"
+            android:layout_width="@dimen/security_alert_width"
+            android:text="@string/security_alert_desc"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            style="@style/SecurityAlertTextStyle"/>
+        <TextView
+            android:textColor="@color/mms_block_alert_hint_text_color"
+            android:id="@+id/mms_block_alert"
+            android:visibility="gone"
+            android:layout_width="@dimen/security_alert_width"
+            android:text="@string/mms_block_hint"
+            android:layout_below="@+id/security_alert"
+            android:layout_centerInParent="true"
+            style="@style/SecurityAlertTextStyle"/>
+    </RelativeLayout>
+</LinearLayout>

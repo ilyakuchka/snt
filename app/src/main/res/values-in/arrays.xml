@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Nama</item>
+        <item>Nama panggilan</item>
+        <item>Telepon</item>
+        <item>Email</item>
+        <item>Organisasi</item>
+        <item>IM</item>
+        <item>Telepon SIP</item>
+        <item>Ultah</item>
+        <item>Situs web</item>
+        <item>Alamat</item>
+        <item>Catatan</item>
+        <item>Hubungan</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maksimum</item>
+        <item>2 hari</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Belum disetel</item>
+        <item>1 jam</item>
+        <item>6 jam</item>
+        <item>12 jam</item>
+        <item>1 hari</item>
+        <item>Maksimum</item>
+    </array>
+</resources>

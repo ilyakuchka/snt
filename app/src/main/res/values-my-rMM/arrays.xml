@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>အမည်</item>
+        <item>ချစ်စနိုးအမည်</item>
+        <item>ဖုန်း</item>
+        <item>အီးမေးလ်</item>
+        <item>အဖွဲ့အစည်း</item>
+        <item>IM</item>
+        <item>SIP ဖုန်း</item>
+        <item>မွေးနေ့</item>
+        <item>ဝဘ်ဆိုက်</item>
+        <item>လိပ်စာ</item>
+        <item>မှတ်ချက်</item>
+        <item>ဆက်စပ်မှု</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>အများဆုံး</item>
+        <item>၂ ရက်</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>သတ်မှတ်မထားပါ</item>
+        <item>၁ နာရီ</item>
+        <item>၆ နာရီ</item>
+        <item>၁၂ နာရီ</item>
+        <item>၁ ရက်</item>
+        <item>အများဆုံး</item>
+    </array>
+</resources>

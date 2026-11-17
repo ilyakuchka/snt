@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>სახელი</item>
+        <item>ზედმეტსახელი</item>
+        <item>ტელეფონი</item>
+        <item>ელ-ფოსტა</item>
+        <item>ორგანიზაცია</item>
+        <item>IM</item>
+        <item>SIP ტელეფონი</item>
+        <item>დაბადების დღე</item>
+        <item>ვებ-საიტი</item>
+        <item>მისამართი</item>
+        <item>ჩანაწერი</item>
+        <item>ურთიერთობა</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>მაქსიმუმ</item>
+        <item>2 დღე</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>არ არის დაყენებული</item>
+        <item>1 საათი</item>
+        <item>6 საათი</item>
+        <item>12 საათი</item>
+        <item>1 დღე</item>
+        <item>მაქსიმუმ</item>
+    </array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:left="0.5dp"
+                android:top="1dp"
+                android:right="0.5dp"
+                android:bottom="1dp"/>
+            <solid android:color="@color/bottom_sub_menu_layer_color_1"/>
+            <corners android:radius="@dimen/card_bottom_menu_button_radius"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:left="0.5dp"
+                android:top="0.5dp"
+                android:right="0.5dp"
+                android:bottom="1dp"/>
+            <solid android:color="@color/bottom_sub_menu_layer_color_2"/>
+            <corners android:radius="@dimen/card_bottom_menu_button_radius"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:left="0.5dp"
+                android:top="0.3dp"
+                android:right="0.5dp"
+                android:bottom="1dp"/>
+            <solid android:color="@color/bottom_sub_menu_layer_color_3"/>
+            <corners android:radius="@dimen/card_bottom_menu_button_radius"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:left="0.5dp"
+                android:top="0.3dp"
+                android:right="0.5dp"
+                android:bottom="1dp"/>
+            <solid android:color="@color/bottom_sub_menu_layer_color_4"/>
+            <corners android:radius="@dimen/card_bottom_menu_button_radius"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:left="0.5dp"
+                android:top="0.3dp"
+                android:right="0.5dp"
+                android:bottom="1dp"/>
+            <solid android:color="@color/bottom_sub_menu_layer_color_5"/>
+            <corners android:radius="@dimen/card_bottom_menu_button_radius"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/bottom_sub_menu_bg_color"/>
+            <corners android:radius="@dimen/card_bottom_menu_button_radius"/>
+        </shape>
+    </item>
+</layer-list>

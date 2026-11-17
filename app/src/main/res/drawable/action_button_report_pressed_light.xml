@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/action_button_height"
+    android:width="@dimen/action_button_width"
+    android:viewportWidth="74"
+    android:viewportHeight="74">
+    <group>
+        <clip-path android:pathData="M0,0h74v74h-74z"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M33.9689,16.25C35.3161,13.9167 38.6839,13.9167 40.0311,16.25L60.8157,52.25C62.1628,54.5833 60.4789,57.5 57.7846,57.5H16.2154C13.5211,57.5 11.8371,54.5833 13.1843,52.25L33.9689,16.25Z"
+            android:strokeColor="@color/svg_icon_color_pressed"
+            android:strokeWidth="5"/>
+        <path
+            android:fillColor="@color/svg_icon_color_pressed"
+            android:pathData="M34.5,37.6875C34.5,39.0682 35.6193,40.1875 37,40.1875C38.3807,40.1875 39.5,39.0682 39.5,37.6875L39.5,29.6875C39.5,28.3068 38.3807,27.1875 37,27.1875C35.6193,27.1875 34.5,28.3068 34.5,29.6875L34.5,37.6875ZM33.5,46.6875C33.5,44.7545 35.067,43.1875 37,43.1875C38.933,43.1875 40.5,44.7545 40.5,46.6875C40.5,48.6205 38.933,50.1875 37,50.1875C35.067,50.1875 33.5,48.6205 33.5,46.6875Z"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

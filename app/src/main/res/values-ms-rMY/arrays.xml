@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Nama</item>
+        <item>Nama samaran</item>
+        <item>Telefon</item>
+        <item>E-mel</item>
+        <item>Organisasi</item>
+        <item>IM</item>
+        <item>Fon SIP</item>
+        <item>Tarikh lahir</item>
+        <item>Laman web</item>
+        <item>Alamat</item>
+        <item>Nota</item>
+        <item>Hubungan</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maximum</item>
+        <item>Dua hari</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Tidak ditetapkan</item>
+        <item>1 jam</item>
+        <item>6 jam</item>
+        <item>12 jam</item>
+        <item>1 hari</item>
+        <item>maximum</item>
+    </array>
+</resources>

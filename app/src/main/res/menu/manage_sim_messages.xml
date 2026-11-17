@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/miuix_actionbar_copy_icon"
+        android:id="@+id/copy_to_phone"
+        android:title="@string/sim_copy_to_phone_memory"
+        android:showAsAction="withText|always"/>
+    <item
+        android:icon="@drawable/action_button_forward_light"
+        android:id="@+id/forward"
+        android:title="@string/menu_forward"
+        android:showAsAction="withText|always"/>
+    <item
+        android:icon="@drawable/miuix_actionbar_delete_icon"
+        android:id="@+id/delete"
+        android:title="@string/sim_delete"
+        android:showAsAction="withText|always"/>
+</menu>

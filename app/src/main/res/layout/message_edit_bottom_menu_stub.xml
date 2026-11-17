@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/bottom_editor_panel_min_height">
+    <ImageButton
+        android:background="@drawable/message_edit_bottom_edit_mode"
+        android:layout_width="@dimen/button_bottom_panel_add_attachment_width"
+        android:layout_height="@dimen/button_bottom_panel_add_attachment_width"
+        android:layout_marginTop="@dimen/button_bottom_panel_add_attachment_margin"
+        android:layout_marginBottom="@dimen/button_bottom_panel_add_attachment_margin"
+        android:contentDescription="@string/switch_to_editor"
+        android:layout_marginStart="@dimen/button_bottom_panel_add_attachment_margin_start"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="attachment_pharse_list_item_height">51dp</dimen>
+    <dimen name="bubble_corner_radius">14dp</dimen>
+    <dimen name="card_radius">@dimen/verfication_card_card_radius</dimen>
+    <dimen name="ic_conversation_empty_margin_bottom">50dp</dimen>
+    <dimen name="max_bubble_group_title_width">244dp</dimen>
+    <dimen name="max_bubble_text_width_huge">187dp</dimen>
+    <dimen name="mms_attachment_pic_height">80dp</dimen>
+    <dimen name="mms_attachment_pic_width">76.3dp</dimen>
+    <dimen name="new_phrase_content_margin_start">24.3dp</dimen>
+    <dimen name="secondary_text_size">12sp</dimen>
+    <dimen name="smiley_item_height">45.3dp</dimen>
+    <dimen name="smiley_item_width">60sp</dimen>
+</resources>

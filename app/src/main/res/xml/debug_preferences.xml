@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/debug_category_others">
+        <CheckBoxPreference
+            app:key="key_debug_enable"
+            app:persistent="false"
+            app:title="@string/debug_title"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/debug_category_db">
+        <Preference
+            app:key="key_export_db"
+            app:persistent="false"
+            app:title="@string/debug_export_db"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/debug_category_others">
+        <Preference
+            app:key="key_about_mms"
+            app:persistent="false"
+            app:title="@string/debug_about_mms"
+            app:useSimpleSummaryProvider="true"/>
+        <Preference
+            app:key="key_make_a_crash"
+            app:persistent="false"
+            app:title="Make a crash"
+            app:useSimpleSummaryProvider="true"/>
+        <Preference
+            app:key="dead_system_exception"
+            app:persistent="false"
+            app:title="DeadSystemException"
+            app:useSimpleSummaryProvider="true"/>
+        <Preference
+            app:key="start_foreground_service"
+            app:persistent="false"
+            app:title="startForegroundService()"
+            app:useSimpleSummaryProvider="true"/>
+        <Preference
+            app:key="bad_token_exception"
+            app:persistent="false"
+            app:title="BadTokenException"
+            app:useSimpleSummaryProvider="true"/>
+        <Preference
+            app:key="bad_notification_exception"
+            app:persistent="false"
+            app:title="badNotificationException"
+            app:useSimpleSummaryProvider="true"/>
+        <Preference
+            app:key="Can_not_downgrade_database"
+            app:persistent="false"
+            app:title="Can&apos;t downgrade database"
+            app:useSimpleSummaryProvider="true"/>
+        <Preference
+            app:key="Action_mode_callback_npe"
+            app:persistent="false"
+            app:title="ActionMode$Callback on a null object reference"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

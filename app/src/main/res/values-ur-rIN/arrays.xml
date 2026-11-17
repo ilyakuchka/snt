@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>نام</item>
+        <item>عرفی نام</item>
+        <item>فون</item>
+        <item>ای میل کریں</item>
+        <item>تنظیم</item>
+        <item>IM</item>
+        <item>SIP فون</item>
+        <item>سالگرہ</item>
+        <item>ویب سائٹ</item>
+        <item>پتہ</item>
+        <item>نوٹ</item>
+        <item>رشتہ</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>زیادہ سے زیادہ</item>
+        <item>2 دن</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>سیٹ نہیں</item>
+        <item>1 گھنٹہ</item>
+        <item>6 گھنٹے</item>
+        <item>12 گھنٹے</item>
+        <item>1 دن</item>
+        <item>زیادہ سے زیادہ</item>
+    </array>
+</resources>

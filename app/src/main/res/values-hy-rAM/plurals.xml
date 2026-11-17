@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="one">1 ժամ առաջ</item>
+        <item quantity="other">1 ժամ առաջ</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">%d ժամ առաջ</item>
+        <item quantity="other">%d ժամ առաջ</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">Կես ժամ առաջ</item>
+        <item quantity="other">Կես ժամ առաջ</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">In %d ժամ</item>
+        <item quantity="other">In %d ժամ</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">Կես ժամից</item>
+        <item quantity="other">Կես ժամից</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">Անմիջապես</item>
+        <item quantity="other">Անմիջապես</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">in %d րոպեից</item>
+        <item quantity="other">%d րոպեից</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">Հենց հիմա</item>
+        <item quantity="other">Հենց հիմա</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">%d րոպե առաջ</item>
+        <item quantity="other">%d րոպե առաջ</item>
+    </plurals>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="one">Ջնջե՞լ %1$s հաղորդագրությունը:</item>
+        <item quantity="other">Ջնջե՞լ %1$s հաղորդագրությունները:</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">Ջնջե՞լ %1$s ընտրված խոսակցությունը:</item>
+        <item quantity="other">Ջնջե՞լ %1$s ընտրված խոսակցությունները:</item>
+    </plurals>
+    <plurals name="group_message_failed_title">
+        <item quantity="one">Հնարավոր չէ ուղարկել %d կոնտակտին</item>
+        <item quantity="other">Հնարավոր չէ ուղարկել %d կոնտակտներին</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="one">Կես ժամ առաջ</item>
+        <item quantity="other">Կես ժամ առաջ</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="one">1 ժամում</item>
+        <item quantity="other">1 ժամում</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">Կես ժամից</item>
+        <item quantity="other">Կես ժամից</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">Անմիջապես</item>
+        <item quantity="other">Անմիջապես</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">1 րոպեից</item>
+        <item quantity="other">%d րոպեից</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">Հենց հիմա</item>
+        <item quantity="other">Հենց հիմա</item>
+    </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="one">Նշված է որպես %2$s %1$d անձանց կողմից</item>
+        <item quantity="other">Նշված է որպես %2$s %1$d անձանց կողմից</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="one">%1$s հաղորդագրություն</item>
+        <item quantity="other">%1$s հաղորդագրություններ</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">%d ընտրված օբյեկտ</item>
+        <item quantity="other">%d ընտրված օբյեկտներ</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="one">%s հաղորդագրություն | </item>
+        <item quantity="other">%s հաղորդագրություններ | </item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1 րոպե առաջ</item>
+        <item quantity="other">%d րոպե առաջ</item>
+    </plurals>
+    <plurals name="privacy_state_revoked_revoked_1">
+        <item quantity="one">Ելքագրել (%dվ)</item>
+        <item quantity="other">Ելքագրել (%dվ)</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="one">%1$s արդյունքը &quot;%2$s&quot;-ի համար</item>
+        <item quantity="other">%1$s արդյունքները &quot;%2$s&quot;-ի համար</item>
+    </plurals>
+    <plurals name="send_to_count">
+        <item quantity="one">%1$s հաղորդագրությունն ուղարկված է</item>
+        <item quantity="other">%1$s հաղորդագրություններն ուղարկված են</item>
+    </plurals>
+    <plurals name="timed_message_expired_title">
+        <item quantity="one">%d ծրագրավորված հաղորդագրությունը չի ուղարկվել</item>
+        <item quantity="other">%d ծրագրավորված հաղորդագրությունները չեն ուղարկվել</item>
+    </plurals>
+    <plurals name="timed_message_in_total">
+        <item quantity="one">(%d հաղորդագրություն)</item>
+        <item quantity="other">(%d հաղորդագրություններ)</item>
+    </plurals>
+    <plurals name="to_count">
+        <item quantity="one">%d հասցեատեր</item>
+        <item quantity="other">%d հասցեատերեր</item>
+    </plurals>
+</resources>

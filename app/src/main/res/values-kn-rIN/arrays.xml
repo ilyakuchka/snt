@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>ಹೆಸರು</item>
+        <item>ಅಡ್ಡಹೆಸರು</item>
+        <item>ದೂರವಾಣಿ</item>
+        <item>ಇಮೇಲ್</item>
+        <item>ಸಂಸ್ಥೆ</item>
+        <item>IM</item>
+        <item>SIP ಫೋನ್</item>
+        <item>ಜನ್ಮದಿನ</item>
+        <item>ವೆಬ್‌ಸೈಟ್‌</item>
+        <item>ವಿಳಾಸ</item>
+        <item>ಟಿಪ್ಪಣಿ</item>
+        <item>ಸಂಬಂಧ</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>ಗರಿಷ್ಠ</item>
+        <item>2 ದಿನಗಳು</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>ಹೊಂದಿಸಿಲ್ಲ</item>
+        <item>1 ಗಂಟೆ</item>
+        <item>6 ಗಂಟೆಗಳು</item>
+        <item>12 ಗಂಟೆಗಳು</item>
+        <item>1 ದಿನ</item>
+        <item>ಗರಿಷ್ಠ</item>
+    </array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>​ຊື່</item>
+        <item>ຊື່ຫຼິ້ນ</item>
+        <item>ໂທລະສັບ</item>
+        <item>ອີເມວ</item>
+        <item>ອົງກອນ</item>
+        <item>IM</item>
+        <item>ໂທລະສັບ SIP</item>
+        <item>ວັນເກີດ</item>
+        <item>ເວັບໄຊທ໌</item>
+        <item>​ທີ່​ຢູ່</item>
+        <item>ບັນທຶກ</item>
+        <item>ຄວາມສຳພັນ</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>ສູງສຸດ</item>
+        <item>2 ມື້</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>ບໍ່ໄດ້ຕັ້ງຄ່າ</item>
+        <item>1 ຊົ່ວໂມງ</item>
+        <item>6 ຊົ່ວໂມງ</item>
+        <item>12 ຊົ່ວໂມງ</item>
+        <item>1 ມື້</item>
+        <item>ສູງສຸດ</item>
+    </array>
+</resources>

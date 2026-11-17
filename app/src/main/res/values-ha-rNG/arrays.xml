@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Sunan</item>
+        <item>Laƙabi</item>
+        <item>Waya</item>
+        <item>Imel</item>
+        <item>Ƙungiya</item>
+        <item>IM</item>
+        <item>Waya na SIP</item>
+        <item>Ranar haihuwa</item>
+        <item>Yanar gizo</item>
+        <item>Adireshi</item>
+        <item>Adana</item>
+        <item>Dangantaka</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Mafi yawanci</item>
+        <item>Kawanaki 2</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Ba\'a seti ba</item>
+        <item>awa 1</item>
+        <item>Awowi 6</item>
+        <item>Awowi 12</item>
+        <item>Kwana1</item>
+        <item>Mafi yawanci</item>
+    </array>
+</resources>

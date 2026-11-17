@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Імя</item>
+        <item>Нікнэйм</item>
+        <item>Тэлефон</item>
+        <item>Email</item>
+        <item>Арганізацыя</item>
+        <item>IM</item>
+        <item>SIP тэлефон</item>
+        <item>Дзень народзінаў</item>
+        <item>Сайт</item>
+        <item>Адрас</item>
+        <item>Нататка</item>
+        <item>Сваяк</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Максімум</item>
+        <item>2 дні</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Не ўсталявана</item>
+        <item>1 гадзіна</item>
+        <item>6 гадзін</item>
+        <item>12 гадзін</item>
+        <item>1 дзень</item>
+        <item>Максімум</item>
+    </array>
+</resources>

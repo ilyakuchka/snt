@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Naam</item>
+        <item>Bijnaam</item>
+        <item>Telefoon</item>
+        <item>E-mail</item>
+        <item>Organisatie</item>
+        <item>IM</item>
+        <item>SIP Telefoon</item>
+        <item>Verjaardag</item>
+        <item>Website</item>
+        <item>Adres</item>
+        <item>Notitie</item>
+        <item>Relatie</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maximum</item>
+        <item>2 dagen</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Niet ingesteld</item>
+        <item>1 uur</item>
+        <item>6 uur</item>
+        <item>12 uur</item>
+        <item>1 dag</item>
+        <item>Maximum</item>
+    </array>
+</resources>

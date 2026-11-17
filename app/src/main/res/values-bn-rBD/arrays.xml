@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>নাম</item>
+        <item>ডাকনাম</item>
+        <item>ফোন</item>
+        <item>ইমেল</item>
+        <item>প্রতিষ্ঠান</item>
+        <item>IM</item>
+        <item>SIP ফোন</item>
+        <item>জন্মদিন</item>
+        <item>ওয়েবসাইট</item>
+        <item>ঠিকানা</item>
+        <item>নোট</item>
+        <item>সম্পর্ক</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>সর্বাধিক</item>
+        <item>২ দিন</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>সেট করা নেই</item>
+        <item>১ ঘণ্টা</item>
+        <item>৬ ঘণ্টা</item>
+        <item>১২ ঘণ্টা</item>
+        <item>১ দিন</item>
+        <item>সর্বাধিক</item>
+    </array>
+</resources>

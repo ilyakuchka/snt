@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>نامى</item>
+        <item>ئىسمى</item>
+        <item>تېلېفون</item>
+        <item>تورخەت</item>
+        <item>شىركەت</item>
+        <item>پەيتلىك ئۇچۇر</item>
+        <item>تور تېلېفون</item>
+        <item>تۇغۇلغان كۈن</item>
+        <item>تور ئادرېسى</item>
+        <item>ئادرېس</item>
+        <item>ئىزاھاتلار</item>
+        <item>مۇناسىۋەت</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>ئەڭ ئۇزۇن</item>
+        <item>ئىككى كۈن</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>تەڭشىمەسلىك</item>
+        <item>1 سائەت</item>
+        <item>6 سائەت</item>
+        <item>12 سائەت</item>
+        <item>1 كۈن</item>
+        <item>ئەڭ ئۇزۇن</item>
+    </array>
+</resources>

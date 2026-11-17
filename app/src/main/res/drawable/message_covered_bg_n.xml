@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/card_radius"/>
+    <solid android:color="@color/card_background_covered_bg_n"/>
+    <padding
+        android:left="@dimen/card_background_covered_padding"
+        android:top="@dimen/card_background_covered_padding"
+        android:right="@dimen/card_background_covered_padding"
+        android:bottom="@dimen/card_background_covered_padding"/>
+</shape>

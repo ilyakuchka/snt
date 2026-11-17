@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Ism</item>
+        <item>Laqab</item>
+        <item>Telefon</item>
+        <item>E-pochta</item>
+        <item>Tashkilot</item>
+        <item>IM</item>
+        <item>SIP Telefon</item>
+        <item>Tug‘ilgan kun</item>
+        <item>Vebsayt</item>
+        <item>Manzil</item>
+        <item>Qayd</item>
+        <item>Qarindosh</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maksimum</item>
+        <item>2 kun</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>O‘rnatilmagan</item>
+        <item>1 soat</item>
+        <item>6 soat</item>
+        <item>12 soat</item>
+        <item>1 kun</item>
+        <item>Maksimum</item>
+    </array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exit_audio_record_button"
+    android:background="@drawable/message_edit_bottom_edit_mode"
+    android:visibility="gone"
+    android:layout_width="@dimen/button_bottom_panel_add_attachment_width"
+    android:layout_height="@dimen/button_bottom_panel_add_attachment_width"
+    android:layout_below="@+id/text_counter"
+    android:contentDescription="@string/open_edit_sms_panel"
+    android:layoutDirection="locale"/>

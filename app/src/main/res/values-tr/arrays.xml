@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>İsim</item>
+        <item>Kullanıcı adı</item>
+        <item>Telefon</item>
+        <item>E-posta</item>
+        <item>Kuruluş</item>
+        <item>IM</item>
+        <item>SIP Telefon</item>
+        <item>Doğum günü</item>
+        <item>Web sitesi</item>
+        <item>Adres</item>
+        <item>Not</item>
+        <item>Yakınlık der.</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maksimum</item>
+        <item>2 gün</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Ayarlı değil</item>
+        <item>1 saat</item>
+        <item>6 saat</item>
+        <item>12 saat</item>
+        <item>1 gün</item>
+        <item>Maksimum</item>
+    </array>
+</resources>

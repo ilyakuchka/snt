@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Nimi</item>
+        <item>Lempinimi</item>
+        <item>Puhelin</item>
+        <item>Sähköposti</item>
+        <item>Organisaatio</item>
+        <item>Pikaviesti</item>
+        <item>SIP Phone</item>
+        <item>Syntymäpäivä</item>
+        <item>Verkkosivu</item>
+        <item>Osoite</item>
+        <item>Kommentti</item>
+        <item>Suhde</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Enimmäismäärä</item>
+        <item>2 päivää</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Ei valittu</item>
+        <item>1 tunti</item>
+        <item>6 tuntia</item>
+        <item>12 tuntia</item>
+        <item>1 päivä</item>
+        <item>Enimmäismäärä</item>
+    </array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="false">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/understand_button_2_single_p"/>
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/understand_button_2_single_p"/>
+    <item android:drawable="@drawable/understand_button_2_single_n"/>
+</selector>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>பெயர்</item>
+        <item>செல்லப்பெயர்</item>
+        <item>தொலைபேசி</item>
+        <item>மின்னஞ்சல்</item>
+        <item>நிறுவனம்</item>
+        <item>IM</item>
+        <item>SIP ஃபோன்</item>
+        <item>பிறந்த நாள்</item>
+        <item>இணையத்தளம்</item>
+        <item>முகவரி</item>
+        <item>குறிப்பு</item>
+        <item>உறவு</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>அதிகபட்சம்</item>
+        <item>இரண்டு நாட்கள்</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>அமைக்கவில்லை</item>
+        <item>1 மணிநேரம்</item>
+        <item>6 மணிநேரம்</item>
+        <item>12 மணி நேரங்கள்</item>
+        <item>1 நாள்</item>
+        <item>அதிகபட்சம்</item>
+    </array>
+</resources>

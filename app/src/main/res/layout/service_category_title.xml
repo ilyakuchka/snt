@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:background="?attr/listViewItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Widget.DropdownSelector.Spinner">
+    <TextView
+        android:id="@+id/service_category_text"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textDirection="locale"
+        android:layout_marginEnd="@dimen/spinner_text_margin_end"
+        style="@style/Miuix.AppCompat.TextAppearance.List.GroupHeader"/>
+    <ImageView
+        android:id="@+id/service_category_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dropdown_indicator_down"
+        android:contentDescription="@null"/>
+</LinearLayout>

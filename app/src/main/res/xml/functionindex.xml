@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<functionindex>
+    <items>
+        <item>
+            <id>1
+            </id>
+            <resource_name>search_title_mms
+            </resource_name>
+            <intent_action>miui.intent.action.APP_SETTINGS
+            </intent_action>
+            <package>com.android.mmt
+            </package>
+            <class>com.android.mmt.ui.MessagingPreferenceActivity
+            </class>
+            <keywords>search_keyword_mms
+            </keywords>
+            <drawable>android.resource://com.android.settings/drawable/com_android_mms
+            </drawable>
+            <path>search_path_mms
+            </path>
+            <is_setting>true
+            </is_setting>
+        </item>
+    </items>
+</functionindex>

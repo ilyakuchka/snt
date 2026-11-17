@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">ཆུ་ཚོད་%d གོང་།</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">དུས་ཚོད་ཕྱེད་ཀའི་སྔོན།</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">ཆུ་ཚོད་%d ཡི་རྗེས།</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">དུས་ཚོད་ཕྱེད་ཀའི་རྗེས།</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">མྱུར་ཏུ།</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">སྐར་མ%dརྗེས།</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">ད་གིན།</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">སྐར་མ%dསྔོན།</item>
+    </plurals>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="other">བདམས་ཟིན་པའི་ཆ་འཕྲིན་%1$sསུབ་རྒྱུ་གཏན་འཁེལ་ལམ།</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">བདམས་ཟིན་པའི་ཁ་བརྡ%1$sགསུབ་རྒྱུ་གཏན་འཁེལ་ཡིན་ནམ།</item>
+    </plurals>
+    <plurals name="group_message_failed_title">
+        <item quantity="other">མི་%dབསྐུར་མི་ཐུབ། འདེམ་ནས་ཡང་བསྐྱར་བསྐུར་བ།</item>
+    </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="other">མི་ %1$d %2$sལ་རྟགས་བཀོད་ཟིན།</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="other">%1$sའཕྲིན་ཐུང་ཡོད།</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">ཚན་པ%dབདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="other">[%sཚན།]</item>
+    </plurals>
+    <plurals name="privacy_state_revoked_revoked_1">
+        <item quantity="other">ཕྱིར་འཐེན(%ds)</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s ཞིག་འཚམས་པ།“%2$s”བཤེར་འཚོལ་མཇུག་འབྲས།</item>
+    </plurals>
+    <plurals name="send_to_count">
+        <item quantity="other">%1$sབསྐུར་ཟིན།</item>
+    </plurals>
+    <plurals name="timed_message_expired_title">
+        <item quantity="other">ཁྱེད་ལ་དུས་བཀག་འཕྲིན་ཐུང་%dདུས་ཐོག་ཏུ་བསྐུར་མི་འདུག</item>
+    </plurals>
+    <plurals name="timed_message_in_total">
+        <item quantity="other">སོགས་མི་%d</item>
+    </plurals>
+    <plurals name="to_count">
+        <item quantity="other">མི་%d</item>
+    </plurals>
+</resources>

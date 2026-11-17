@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/dialog_turn_on_corners_radius"/>
+    <solid android:color="@color/rcs_login_btn_bg"/>
+    <padding
+        android:top="@dimen/rcs_login_btn_padding_v"
+        android:bottom="@dimen/rcs_login_btn_padding_v"/>
+</shape>

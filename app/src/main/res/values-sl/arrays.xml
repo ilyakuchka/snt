@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Ime</item>
+        <item>Vzdevek</item>
+        <item>Telefon</item>
+        <item>E-pošta</item>
+        <item>Organizacija</item>
+        <item>IM</item>
+        <item>SiP telefon</item>
+        <item>Rojstni dan</item>
+        <item>Spletna stran</item>
+        <item>Naslov</item>
+        <item>Beležka</item>
+        <item>Razmerje</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maksimalno</item>
+        <item>2 dni</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Ni nastavljeno</item>
+        <item>1 ura</item>
+        <item>6 ur</item>
+        <item>12 ur</item>
+        <item>1 dan</item>
+        <item>Maksimalno</item>
+    </array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/message_bottom_audio_button_text"
+    android:textStyle="bold"
+    android:textColor="@color/text_color_attachment_edit_phrase"
+    android:gravity="center"
+    android:layout_gravity="bottom"
+    android:background="@drawable/new_message_editor_record_bg"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_editor_height"
+    android:text="@string/hold_to_talk"
+    android:contentDescription="@string/hold_to_talk"/>

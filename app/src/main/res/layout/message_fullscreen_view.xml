@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:paddingTop="@dimen/message_full_screen_padding_top"
+        android:paddingBottom="@dimen/message_full_screen_padding_bottom"
+        android:fadingEdge="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.android.mmt.ui.StaticTextView
+                android:textSize="@dimen/message_fullscreen_textsize"
+                android:id="@+id/message_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="@dimen/message_fullscreen_width"
+                android:textDirection="firstStrongLtr"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

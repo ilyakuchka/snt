@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="one">1 గంట క్రితం</item>
+        <item quantity="other">1 గంటల క్రితం</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">%d గంట క్రితం</item>
+        <item quantity="other">%d గంట క్రితం</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">అర గంట క్రితం</item>
+        <item quantity="other">అర గంట క్రితం</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">%d గంటలో</item>
+        <item quantity="other">%d గంటలో</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">అర గంటలో</item>
+        <item quantity="other">అర గంటలో</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">వెంటనే</item>
+        <item quantity="other">వెంటనే</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">%d నిమిషంలో</item>
+        <item quantity="other">%d నిమిషాల్లో</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">ఇప్పుడే</item>
+        <item quantity="other">ఇప్పుడే</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">%d నిమిషం క్రితం</item>
+        <item quantity="other">%d నిమిషాల క్రితం</item>
+    </plurals>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="one">%1$s సందేశాన్ని తొలగించాలా?</item>
+        <item quantity="other">%1$s సందేశాలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">ఎంపిక చేసిన %1$s సంభాషణని తొలగించాలా?</item>
+        <item quantity="other">ఎంపిక చేసిన %1$s సంభాషణలను తొలగించాలా?</item>
+    </plurals>
+    <plurals name="group_message_failed_title">
+        <item quantity="one">%d పరిచయానికి పంపలేకపోయాము</item>
+        <item quantity="other">%d పరిచయాలకు పంపలేకపోయాము</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="one">అర గంట క్రితం</item>
+        <item quantity="other">అర గంట క్రితం</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="one">1 గంటలో</item>
+        <item quantity="other">1 గంటలో</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">అర గంటలో</item>
+        <item quantity="other">అర గంటలో</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">వెంటనే</item>
+        <item quantity="other">వెంటనే</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">1 నిమిషంలో</item>
+        <item quantity="other">%d నిమిషాల్లో</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">ఇప్పుడే</item>
+        <item quantity="other">ఇప్పుడే</item>
+    </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="one">%1$d వ్యక్తి %2$sగా గుర్తించారు</item>
+        <item quantity="other">%1$d వ్యక్తులు %2$sగా గుర్తించారు</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="one">%1$s సందేశం</item>
+        <item quantity="other">%1$s సందేశాలు</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">%d అంశం ఎంచుకోబడింది</item>
+        <item quantity="other">%d అంశాలు ఎంచుకోబడ్డాయి</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="one">%s సందేశం | </item>
+        <item quantity="other">%s సందేశాలు | </item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1 నిమిషం క్రితం</item>
+        <item quantity="other">%d నిమిషాల క్రితం</item>
+    </plurals>
+    <plurals name="privacy_state_revoked_revoked_1">
+        <item quantity="one">ఉపసంహరించు (%d సె)</item>
+        <item quantity="other">ఉపసంహరించు (%d సె)</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="one">&quot;%2$s&quot; కోసం %1$s ఫలితం</item>
+        <item quantity="other">&quot;%2$s&quot; కోసం %1$s ఫలితాలు</item>
+    </plurals>
+    <plurals name="send_to_count">
+        <item quantity="one">%1$s సందేశం పంపబడింది</item>
+        <item quantity="other">%1$s సందేశాలు పంపబడ్డాయి</item>
+    </plurals>
+    <plurals name="timed_message_expired_title">
+        <item quantity="one">%d సమయాధారిత సందేశం పంపబడలేదు</item>
+        <item quantity="other">%d సమయాధారిత సందేశాలు పంపబడలేదు</item>
+    </plurals>
+    <plurals name="timed_message_in_total">
+        <item quantity="one">(%d సందేశం)</item>
+        <item quantity="other">(%d సందేశాలు)</item>
+    </plurals>
+    <plurals name="to_count">
+        <item quantity="one">%d స్వీకర్త</item>
+        <item quantity="other">%d స్వీకర్తలు</item>
+    </plurals>
+</resources>

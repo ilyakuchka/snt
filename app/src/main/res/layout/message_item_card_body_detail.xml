@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="@style/TextAppearance.TabList.CardBody"
+        android:ellipsize="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:layout_weight="1"
+        android:lineSpacingMultiplier="1.1"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_right_normal"
+        android:scaleType="fitCenter"
+        android:rotationY="@integer/rotation"
+        android:layout_marginStart="13.8dp"/>
+</LinearLayout>

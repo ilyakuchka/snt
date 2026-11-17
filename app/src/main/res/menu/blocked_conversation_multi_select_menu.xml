@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/action_button_all_read_light"
+        android:id="@+id/mark_as_un_blocked"
+        android:title="@string/confirm_no_block_positive"
+        android:showAsAction="withText|always"/>
+</menu>

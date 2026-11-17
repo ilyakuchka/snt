@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Անուն</item>
+        <item>Կեղծանուն</item>
+        <item>Հեռախոս</item>
+        <item>Էլ.հասցե</item>
+        <item>Կազմակերպություն</item>
+        <item>IM</item>
+        <item>SIP հեռախոս</item>
+        <item>Ծննդյան ամսաթիվ</item>
+        <item>Վեբկայք</item>
+        <item>Հասցե</item>
+        <item>Նշում</item>
+        <item>Կապը</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Առավելագույն</item>
+        <item>2 օր</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Կարգավորված չէ</item>
+        <item>1 ժամ</item>
+        <item>6 ժամ</item>
+        <item>12 ժամ</item>
+        <item>1 օր</item>
+        <item>Առավելագույն</item>
+    </array>
+</resources>

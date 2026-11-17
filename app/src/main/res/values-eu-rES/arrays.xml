@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Izena</item>
+        <item>Ezizena</item>
+        <item>Telefonoa</item>
+        <item>Posta elektronikoa</item>
+        <item>Erakundea</item>
+        <item>IM</item>
+        <item>SIP Telefonoa</item>
+        <item>Urtebetetzea</item>
+        <item>Webgunea</item>
+        <item>Helbidea</item>
+        <item>Oharra</item>
+        <item>Harremana</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Gehiengoa</item>
+        <item>2 egun</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Ez da ezarri</item>
+        <item>Ordu 1</item>
+        <item>6 ordu</item>
+        <item>12 ordu</item>
+        <item>Egun bat</item>
+        <item>Gehiengoa</item>
+    </array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/TextAppearance.List.Secondary"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:background="@null"
+    android:padding="@dimen/list_item_padding_outer"
+    android:layout_width="wrap_content"
+    android:singleLine="true"/>

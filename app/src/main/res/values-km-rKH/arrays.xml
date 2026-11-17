@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>ឈ្មោះ</item>
+        <item>ឈ្មោះហៅក្រៅ</item>
+        <item>ទូរស័ព្ទ</item>
+        <item>អ៊ីម៉ែល</item>
+        <item>អង្គភាព</item>
+        <item>IM</item>
+        <item>ទូរស័ព្ទ SIP</item>
+        <item>ថ្ងៃខែឆ្នាំកំណើត</item>
+        <item>គេហទំព័រ</item>
+        <item>អាសយដ្ឋាន</item>
+        <item>កំណត់ចំណាំ</item>
+        <item>ទំនាក់ទំនង</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>អតិបរមា</item>
+        <item>2 ថ្ងៃ</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>មិនបានកំណត់</item>
+        <item>1 ម៉ោង</item>
+        <item>6 ម៉ោង</item>
+        <item>12 ម៉ោង</item>
+        <item>1 ថ្ងៃ</item>
+        <item>អតិបរមា</item>
+    </array>
+</resources>

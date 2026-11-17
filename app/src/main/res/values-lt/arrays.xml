@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Vardas</item>
+        <item>Slapyvardis</item>
+        <item>Telefonas</item>
+        <item>El. Paštas</item>
+        <item>Organizacija</item>
+        <item>IM</item>
+        <item>SIP Telefonas</item>
+        <item>Gimtadienis</item>
+        <item>Svetainė</item>
+        <item>Adresas</item>
+        <item>Pastaba</item>
+        <item>Santykiai</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maksimalus</item>
+        <item>2 dienos</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Nenustatyta</item>
+        <item>1 valanda</item>
+        <item>6 valandos</item>
+        <item>12 valandų</item>
+        <item>1 diena</item>
+        <item>Maksimalus</item>
+    </array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="attachment_type_icon_background_height">104.5dp</dimen>
+    <dimen name="attachment_type_icon_background_width">95dp</dimen>
+    <dimen name="attachment_type_row_height">116dp</dimen>
+    <dimen name="attachment_type_screens_space">3dp</dimen>
+</resources>

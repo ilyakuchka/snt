@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="one">1 tunti sitten</item>
+        <item quantity="other">1 tunti sitten</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">%d tunti sitten</item>
+        <item quantity="other">%d tunti sitten</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">Puoli tuntia sitten</item>
+        <item quantity="other">Puoli tuntia sitten</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">%d tunnin päästä</item>
+        <item quantity="other">%d tunnin päästä</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">Puolen tunnin kuluttua</item>
+        <item quantity="other">Puolen tunnin kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">Heti</item>
+        <item quantity="other">Heti</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">%d min päästä</item>
+        <item quantity="other">%d min päästä</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">Juuri nyt</item>
+        <item quantity="other">Juuri nyt</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">%d min sitten</item>
+        <item quantity="other">%d min sitten</item>
+    </plurals>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="one">Poistetaanko %1$s viesti?</item>
+        <item quantity="other">Poistetaanko %1$s viestiä?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">Poistetaanko %1$s valittu keskustelu?</item>
+        <item quantity="other">Poistetaanko %1$s valittua keskustelua?</item>
+    </plurals>
+    <plurals name="group_message_failed_title">
+        <item quantity="one">%d yhteystiedolle ei voitu lähettää</item>
+        <item quantity="other">%d yhteystiedolle ei voitu lähettää</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="one">Puoli tuntia sitten</item>
+        <item quantity="other">Puoli tuntia sitten</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="one">1 tunnin kuluttua</item>
+        <item quantity="other">1 tunnin kuluttua</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">Puolen tunnin kuluttua</item>
+        <item quantity="other">Puolen tunnin kuluttua</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">Heti</item>
+        <item quantity="other">Heti</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">1 minuutin kuluttua</item>
+        <item quantity="other">%d minuutin kuluttua</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">Juuri nyt</item>
+        <item quantity="other">Juuri nyt</item>
+    </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="one">Merkitty %2$s%1$d ihmisen johdosta</item>
+        <item quantity="other">Merkitty %2$s%1$d ihmisen johdosta</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="one">%1$s viesti</item>
+        <item quantity="other">%1$s viestiä</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">%d kohde valittu</item>
+        <item quantity="other">%d kohdetta valittu</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="one">%s viesti | </item>
+        <item quantity="other">%s viestiä | </item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1 minuutti sitten</item>
+        <item quantity="other">%d minuuttia sitten</item>
+    </plurals>
+    <plurals name="privacy_state_revoked_revoked_1">
+        <item quantity="one">Peruuta (%ds)</item>
+        <item quantity="other">Peruuta (%ds)</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="one">%1$s tulos haulle &quot;%2$s&quot;</item>
+        <item quantity="other">%1$s tulosta haulle &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="send_to_count">
+        <item quantity="one">Lähetettiin %1$s viesti</item>
+        <item quantity="other">Lähetettiin %1$s viestiä</item>
+    </plurals>
+    <plurals name="timed_message_expired_title">
+        <item quantity="one">%d ajastettua viestiä ei ole lähetetty</item>
+        <item quantity="other">%d ajastettua viestiä ei ole lähetetty</item>
+    </plurals>
+    <plurals name="timed_message_in_total">
+        <item quantity="one">(%d viesti)</item>
+        <item quantity="other">(%d viestiä)</item>
+    </plurals>
+    <plurals name="to_count">
+        <item quantity="one">%d vastaanottaja</item>
+        <item quantity="other">%d vastaanottajaa</item>
+    </plurals>
+</resources>

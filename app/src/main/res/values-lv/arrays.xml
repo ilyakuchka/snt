@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Vārds</item>
+        <item>Segvārds</item>
+        <item>Tālrunis</item>
+        <item>E-pasts</item>
+        <item>Organizācija</item>
+        <item>IM</item>
+        <item>SIP Tālrunis</item>
+        <item>Dzimšanas diena</item>
+        <item>Tīmekļa vietne</item>
+        <item>Adrese</item>
+        <item>Piezīme</item>
+        <item>Attiecības</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maksimāli</item>
+        <item>2 dienas</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Nav uzstādīts</item>
+        <item>1 stunda</item>
+        <item>6 stundas</item>
+        <item>12 stundas</item>
+        <item>1 diena</item>
+        <item>Maksimāli</item>
+    </array>
+</resources>

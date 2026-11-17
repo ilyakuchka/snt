@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_mms_settings_title"
+        android:key="pref_key_mms_settings"/>
+    <PreferenceCategory
+        android:title="@string/pref_system_title"
+        android:key="pref_key_other_settings">
+        <CheckBoxPreference
+            android:title="@string/pref_title_allow_si_sl_push"
+            android:key="pref_key_allow_si_sl_push"
+            android:summary="@string/pref_summary_allow_si_sl_push"
+            android:defaultValue="true"/>
+        <Preference
+            android:title="@string/pref_edit_smsc_address"
+            android:key="pref_key_edit_sim_smsc_address"/>
+        <Preference
+            android:title="@string/pref_title_manage_sim_messages"
+            android:key="pref_key_manage_sim_messages"/>
+        <Preference
+            android:title="@string/pref_title_storage_status"
+            android:key="pref_key_storage_status"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_key_ad">
+        <PreferenceScreen
+            android:title="@string/ad_settings"
+            android:key="pref_key_ad_settings">
+            <intent
+                android:targetPackage="com.android.mmt"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.android.mmt.ui.AdSettingsPreferenceActivity"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

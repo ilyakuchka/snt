@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Jina</item>
+        <item>Jina la utani</item>
+        <item>Simu</item>
+        <item>Barua pepe</item>
+        <item>Shirika</item>
+        <item>IM</item>
+        <item>Simu ya SIP</item>
+        <item>Siku ya kuzaliwa</item>
+        <item>Tovuti</item>
+        <item>Anwani</item>
+        <item>Dokezo</item>
+        <item>Uhusiano</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Upeo wa juu</item>
+        <item>Siku 2</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Haijawekwa</item>
+        <item>1 hour</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>Upeo wa juu</item>
+    </array>
+</resources>

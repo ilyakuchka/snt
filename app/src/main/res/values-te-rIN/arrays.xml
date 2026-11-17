@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>పేరు</item>
+        <item>ముద్దుపేరు</item>
+        <item>ఫోన్</item>
+        <item>ఇమెయిల్</item>
+        <item>సంస్థ</item>
+        <item>IM</item>
+        <item>SIP ఫోన్</item>
+        <item>పుట్టిన రోజు</item>
+        <item>వెబ్‌సైట్</item>
+        <item>చిరునామా</item>
+        <item>గమనిక</item>
+        <item>సంబంధం</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>గరిష్టం</item>
+        <item>2 రోజులు</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>సెట్ చేయలేదు</item>
+        <item>1 గంట</item>
+        <item>6 గంటలు</item>
+        <item>12 గంటలు</item>
+        <item>1 రోజు</item>
+        <item>గరిష్టం</item>
+    </array>
+</resources>

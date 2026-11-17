@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="one">Futa ujumbe %1$s</item>
+        <item quantity="other">Futa jumbe %1$s</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">Ungependa kufuta mazungumzo %1$s uliyochagua?</item>
+        <item quantity="other">Ungependa kufuta mazungumzo %1$s uliyochagua?</item>
+    </plurals>
+    <plurals name="group_message_failed_title">
+        <item quantity="one">Haikuweza kutuma kwa anwani %d</item>
+        <item quantity="other">Haikuweza kutuma kwa anwani %d</item>
+    </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="one">Imetiwa alama kama %2$s na watu %1$d</item>
+        <item quantity="other">Imetiwa alama kama %2$s na watu %1$d</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="one">Ujumbe %1$s</item>
+        <item quantity="other">Ujumbe %1$s</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="one">Ujumbe %s | </item>
+        <item quantity="other">Jumbe %s | </item>
+    </plurals>
+    <plurals name="privacy_state_revoked_revoked_1">
+        <item quantity="one">Ondoa (%ds)</item>
+        <item quantity="other">Ondoa (%ds)</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="one">Tokeo%1$s ya %2$s</item>
+        <item quantity="other">Matokeo %1$s ya %2$s</item>
+    </plurals>
+    <plurals name="send_to_count">
+        <item quantity="one">Tuma ujumbe %1$s</item>
+        <item quantity="other">Tuma jumbe %1$s</item>
+    </plurals>
+    <plurals name="timed_message_expired_title">
+        <item quantity="one">Ujumbe %d ulioratibiwa haujatumwa</item>
+        <item quantity="other">Jumbe %d zilizoratibiwa hazijatumwa</item>
+    </plurals>
+    <plurals name="timed_message_in_total">
+        <item quantity="one">(Ujumbe %d)</item>
+        <item quantity="other">(Jumbe %d)</item>
+    </plurals>
+    <plurals name="to_count">
+        <item quantity="one">Mpokeaji %d</item>
+        <item quantity="other">Wapokeaji %d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/history"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.android.mmt.ui.MessageListPullViewV2
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideOverlay"
+        android:id="@+id/message_list"
+        android:paddingBottom="@dimen/bottom_editor_panel_min_height_big_corner"
+        android:visibility="visible"
+        android:fadingEdge="none"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/bottom_editor_panel_height_minus"
+        android:cacheColorHint="@null"
+        android:splitMotionEvents="false"/>
+    <ImageView
+        android:layout_gravity="start|top"
+        android:id="@+id/message_list_top_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/message_list_top_foreground"
+        android:contentDescription="@null"/>
+    <ImageView
+        android:layout_gravity="start|bottom"
+        android:id="@+id/message_list_bottom_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/message_list_bottom_foreground"
+        android:contentDescription="@null"/>
+</FrameLayout>

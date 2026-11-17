@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Есім</item>
+        <item>Лақап ат</item>
+        <item>Телефон</item>
+        <item>Электрондық пошта</item>
+        <item>Ұйым</item>
+        <item>IM</item>
+        <item>SIP телефоны</item>
+        <item>Туған күні</item>
+        <item>Сайт</item>
+        <item>Мекен-жай</item>
+        <item>Жазба</item>
+        <item>Туыс</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Максимум</item>
+        <item>2 күн</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Орнатылмаған</item>
+        <item>1 сағат</item>
+        <item>6 сағат</item>
+        <item>12 сағат</item>
+        <item>1 күн</item>
+        <item>Максимум</item>
+    </array>
+</resources>

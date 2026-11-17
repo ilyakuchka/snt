@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>姓名</item>
+        <item>昵称</item>
+        <item>电话</item>
+        <item>邮件</item>
+        <item>公司</item>
+        <item>即时消息</item>
+        <item>网络电话</item>
+        <item>生日</item>
+        <item>网址</item>
+        <item>地址</item>
+        <item>备注</item>
+        <item>关系</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>最长</item>
+        <item>两天</item>
+    </array>
+    <array name="entries_mms_validity_period_value">
+        <item>0</item>
+        <item>172800</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>不设置</item>
+        <item>1小时</item>
+        <item>6小时</item>
+        <item>12小时</item>
+        <item>1天</item>
+        <item>最长</item>
+    </array>
+    <array name="entries_sms_validity_period_value">
+        <item>-1</item>
+        <item>60</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>635040</item>
+    </array>
+</resources>

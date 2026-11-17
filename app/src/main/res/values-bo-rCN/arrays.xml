@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>མིང་།</item>
+        <item>གཅེས་མིང་།</item>
+        <item>ཁ་པར།</item>
+        <item>སྦྲག་ཡིག</item>
+        <item>ཀུང་སི་།</item>
+        <item>དུས་ཐོག་གསར་འགྱུར།</item>
+        <item>དྲ་རྒྱའི་ཁ་པར།</item>
+        <item>སྐྱེས་སྐར།</item>
+        <item>དྲ་ཚིགས།</item>
+        <item>ས་གནས།</item>
+        <item>ཟུར་མཆན།</item>
+        <item>འབྲེལ་བ།</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>ཆེས་རིང་བ།</item>
+        <item>ཉིན་གཉིས།</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>སྒྲིག་འགོད་མི་བྱེད།</item>
+        <item>དུས་ཚོད1</item>
+        <item>དུས་ཚོད་6</item>
+        <item>དུས་ཚོད12</item>
+        <item>ཉིན1</item>
+        <item>ཆེས་རིང་བ།</item>
+    </array>
+</resources>

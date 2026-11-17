@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>ชื่อ</item>
+        <item>ชื่อเล่น</item>
+        <item>โทรศัพท์</item>
+        <item>อีเมล</item>
+        <item>องค์กร</item>
+        <item>IM</item>
+        <item>โทรศัพท์โทรผ่านเน็ต (SIP)</item>
+        <item>วันเกิด</item>
+        <item>เว็บไซต์</item>
+        <item>ที่อยู่</item>
+        <item>บันทึกย่อ</item>
+        <item>ความสัมพันธ์</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>สูงสุด</item>
+        <item>2 วัน</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>ไม่มีกำหนด</item>
+        <item>1 ชั่วโมง</item>
+        <item>6 ชั่วโมง</item>
+        <item>12 ชั่วโมง</item>
+        <item>1 วัน</item>
+        <item>สูงสุด</item>
+    </array>
+</resources>

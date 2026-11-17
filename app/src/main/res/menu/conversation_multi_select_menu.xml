@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/action_button_all_read_light"
+        android:id="@+id/mark_as_read"
+        android:title="@string/sp_mark_as_read_menu_title"
+        android:showAsAction="withText|always"/>
+    <item
+        android:icon="@drawable/miuix_actionbar_delete_icon"
+        android:id="@+id/delete"
+        android:title="@string/delete"
+        android:showAsAction="withText|always"/>
+</menu>

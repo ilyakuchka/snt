@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Meno</item>
+        <item>Prezývka</item>
+        <item>Telefón</item>
+        <item>E-mail</item>
+        <item>Spoločnosť</item>
+        <item>IM</item>
+        <item>SIP Číslo</item>
+        <item>Narodeniny</item>
+        <item>WWW</item>
+        <item>Adresa</item>
+        <item>Poznámka</item>
+        <item>Vzťah</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maximum</item>
+        <item>Dva dni</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Nenastavené</item>
+        <item>1 hodinu</item>
+        <item>6 hodín</item>
+        <item>12 hodín</item>
+        <item>1 deň</item>
+        <item>Maximum</item>
+    </array>
+</resources>

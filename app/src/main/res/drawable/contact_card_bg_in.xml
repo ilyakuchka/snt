@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape
+        android:shape="rectangle"
+        android:insetLeft="@dimen/bubble_margin">
+        <solid android:color="@color/contact_card_bg_color_n"/>
+        <corners
+            android:topLeftRadius="@dimen/verfication_card_card_radius"
+            android:topRightRadius="@dimen/verfication_card_card_radius"
+            android:bottomLeftRadius="@dimen/verfication_card_card_radius"
+            android:bottomRightRadius="@dimen/verfication_card_card_radius"/>
+    </shape>
+</inset>

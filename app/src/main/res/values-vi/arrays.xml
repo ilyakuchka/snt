@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Tên</item>
+        <item>Biệt danh</item>
+        <item>Điện thoại</item>
+        <item>E-mail</item>
+        <item>Tổ chức</item>
+        <item>IM</item>
+        <item>Điện thoại SIP</item>
+        <item>Sinh nhật</item>
+        <item>Trang Web</item>
+        <item>Địa chỉ</item>
+        <item>Ghi chú</item>
+        <item>Quan hệ</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Tối đa</item>
+        <item>2 ngày</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Chưa đặt</item>
+        <item>1 giờ</item>
+        <item>6 giờ</item>
+        <item>12 giờ</item>
+        <item>1 ngày</item>
+        <item>Tối đa</item>
+    </array>
+</resources>

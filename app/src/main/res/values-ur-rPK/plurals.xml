@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="one">1 گھنٹہ قبل</item>
+        <item quantity="other">1 گھنٹہ قبل</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">%d گھنٹہ پہلے</item>
+        <item quantity="other">%d گھنٹہ پہلے</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">آدھا گھنٹہ قبل</item>
+        <item quantity="other">آدھا گھنٹہ قبل</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">%d گھنٹہ میں</item>
+        <item quantity="other">%d گھنٹہ میں</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">آدھا گھنٹہ میں</item>
+        <item quantity="other">آدھا گھنٹہ میں</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">فوراً</item>
+        <item quantity="other">فوراً</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">%d منٹ میں</item>
+        <item quantity="other">%d منٹ میں</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">ابھی ابھی</item>
+        <item quantity="other">ابھی ابھی</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">%d منٹ پہلے</item>
+        <item quantity="other">%d منٹ پہلے</item>
+    </plurals>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="one">%1$s پیغام حذف کریں؟</item>
+        <item quantity="other">%1$s پیغامات حذف کریں؟</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">%1$s منتخب کردہ بات چیت حذف کریں؟</item>
+        <item quantity="other">%1$s منتخب کردہ بات چیت حذف کریں؟</item>
+    </plurals>
+    <plurals name="group_message_failed_title">
+        <item quantity="one">%d رابطہ کو نہیں بھیج سکا</item>
+        <item quantity="other">%d رابطوں کو نہیں بھیج سکا</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="one">آدھا گھنٹہ قبل</item>
+        <item quantity="other">آدھا گھنٹہ قبل</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="one">1 گھنٹہ میں</item>
+        <item quantity="other">1 گھنٹہ میں</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">آدھا گھنٹہ میں</item>
+        <item quantity="other">آدھا گھنٹہ میں</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">فوراً</item>
+        <item quantity="other">فوری طور پر</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">1 منٹ میں</item>
+        <item quantity="other">%d منٹ میں</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">ابھی ابھی</item>
+        <item quantity="other">ابھی ابھی</item>
+    </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="one">%1$d لوگوں نے %2$s کے طور پر نشان زد کیا</item>
+        <item quantity="other">%1$d لوگوں نے %2$s کے طور پر نشان زد کیا</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="one">%1$s پیغام</item>
+        <item quantity="other">%1$s پیغامات</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">%d آئٹم منتخب کیا گیا</item>
+        <item quantity="other">%d آئٹمز منتخب کیے گئے</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="one">%s پیغام| </item>
+        <item quantity="other">%s پیغامات| </item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1 منٹ پہلے</item>
+        <item quantity="other">%d منٹ قبل</item>
+    </plurals>
+    <plurals name="privacy_state_revoked_revoked_1">
+        <item quantity="one">دستبردار ہوں (%dسیکنڈ)</item>
+        <item quantity="other">دستبردار ہوں (%dسیکنڈ)</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="one">”%2$s“ کے لیے %1$s نتیجہ</item>
+        <item quantity="other">”%2$s“ کے لیے %1$s نتائج</item>
+    </plurals>
+    <plurals name="send_to_count">
+        <item quantity="one">%1$s پیغام بھیجیں</item>
+        <item quantity="other">%1$s پیغامات بھیجیں</item>
+    </plurals>
+    <plurals name="timed_message_expired_title">
+        <item quantity="one">%d بار پیغام نہیں بھیجا گیا</item>
+        <item quantity="other">%d بار پیغامات نہیں بھیجے گئے</item>
+    </plurals>
+    <plurals name="timed_message_in_total">
+        <item quantity="one">(%d پیغام)</item>
+        <item quantity="other">(%d پیغامات)</item>
+    </plurals>
+    <plurals name="to_count">
+        <item quantity="one">%d وصول کنندہ</item>
+        <item quantity="other">%d وصول کنندہ</item>
+    </plurals>
+</resources>

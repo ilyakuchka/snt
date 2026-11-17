@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="start|center_vertical"
+    android:background="@drawable/timed_message_indicator"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"/>

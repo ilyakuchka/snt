@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>姓名</item>
+        <item>匿稱</item>
+        <item>電話</item>
+        <item>郵件</item>
+        <item>機構</item>
+        <item>即時消息</item>
+        <item>網絡電話</item>
+        <item>生日</item>
+        <item>網址</item>
+        <item>位址</item>
+        <item>備註</item>
+        <item>關係</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>最長</item>
+        <item>兩天</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>不設定</item>
+        <item>1小時</item>
+        <item>6小時</item>
+        <item>12小時</item>
+        <item>1天</item>
+        <item>最長</item>
+    </array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Emri</item>
+        <item>Nofka</item>
+        <item>Telefon</item>
+        <item>Email</item>
+        <item>Organizata</item>
+        <item>IM</item>
+        <item>SIP Phone</item>
+        <item>Datëlindja</item>
+        <item>Faqja e internetit</item>
+        <item>Adresa</item>
+        <item>Shënim</item>
+        <item>Lidhja familjare</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maksimumi</item>
+        <item>2 ditë</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Pacaktuar</item>
+        <item>1 orë</item>
+        <item>6 orë</item>
+        <item>12 orë</item>
+        <item>1 ditë</item>
+        <item>Maksimumi</item>
+    </array>
+</resources>

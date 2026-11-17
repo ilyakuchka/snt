@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.android.mmt.ui.StaticTextView
+        android:textColor="@color/covered_message_text_color"
+        android:ellipsize="end"
+        android:autoLink="phone|email|web"
+        android:linksClickable="false"
+        android:id="@+id/message_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="8"
+        android:lineSpacingMultiplier="@dimen/message_body_line_spacing_multiplier"
+        android:textDirection="firstStrongLtr"
+        style="@style/TextAppearance.MessageDesc.BookmarkBody"/>
+</FrameLayout>

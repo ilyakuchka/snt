@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_delete_SIM_message">This message on the USIM card will be deleted.</string>
+    <string name="save_to_sim">Save to USIM card</string>
+    <string name="sim_empty">No messages on USIM card.</string>
+    <string name="sim_full_title">USIM card full</string>
+    <string name="sim_manage_messages_title">Text messages on USIM card</string>
+</resources>

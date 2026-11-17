@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>名前</item>
+        <item>ニックネーム</item>
+        <item>電話</item>
+        <item>メール</item>
+        <item>会社</item>
+        <item>IM</item>
+        <item>SIP電話</item>
+        <item>誕生日</item>
+        <item>ウェブサイト</item>
+        <item>住所</item>
+        <item>メモ</item>
+        <item>関係</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>最長</item>
+        <item>2日</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>設定なし</item>
+        <item>1時間</item>
+        <item>6時間</item>
+        <item>12時間</item>
+        <item>1日</item>
+        <item>最長</item>
+    </array>
+</resources>

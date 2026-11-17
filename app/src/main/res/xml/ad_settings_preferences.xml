@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="pref_key_ad_status">
+        <CheckBoxPreference
+            android:title="@string/ad_switch"
+            android:key="pref_key_ad_switch"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:title="@string/recommend_ad_switch"
+            android:key="pref_key_ad_recommend_switch"
+            android:summary="@string/recommend_ad_summary"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

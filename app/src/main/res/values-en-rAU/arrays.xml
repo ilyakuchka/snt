@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Name</item>
+        <item>Nickname</item>
+        <item>Phone</item>
+        <item>Email</item>
+        <item>Organisation</item>
+        <item>IM</item>
+        <item>SIP Phone</item>
+        <item>Birthday</item>
+        <item>Website</item>
+        <item>Address</item>
+        <item>Note</item>
+        <item>Relation</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maximum</item>
+        <item>2 days</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Not set</item>
+        <item>1 hour</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>Maximum</item>
+    </array>
+</resources>

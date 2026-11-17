@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetRight="@dimen/bubble_margin">
+    <layer-list>
+        <item>
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/bubble_corner_radius"/>
+                <solid android:color="@color/message_bubble_out_bg_p"/>
+            </shape>
+        </item>
+        <item>
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/bubble_corner_radius"/>
+                <solid android:color="@color/view_press_mask"/>
+                <padding
+                    android:left="@dimen/bubble_padding_right"
+                    android:top="@dimen/bubble_padding_top_and_bottom"
+                    android:right="@dimen/bubble_padding_left"
+                    android:bottom="@dimen/bubble_padding_top_and_bottom"/>
+            </shape>
+        </item>
+    </layer-list>
+</inset>

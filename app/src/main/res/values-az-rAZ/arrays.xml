@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Ad</item>
+        <item>Ləqəb</item>
+        <item>Telefon</item>
+        <item>E-Poçt</item>
+        <item>Təşkilat</item>
+        <item>IM</item>
+        <item>SIP Telefon</item>
+        <item>Doğum günü</item>
+        <item>Veb sayt</item>
+        <item>Ünvan</item>
+        <item>Qeyd</item>
+        <item>Qohum</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maksimum</item>
+        <item>2 gün</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Təyin edilməyib</item>
+        <item>1 saat</item>
+        <item>6 saat</item>
+        <item>12 saat</item>
+        <item>1 gün</item>
+        <item>Maksimum</item>
+    </array>
+</resources>

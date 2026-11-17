@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="10px"
+    android:insetRight="10px">
+    <shape android:shape="oval">
+        <size
+            android:height="18px"
+            android:width="18px"/>
+        <solid android:color="@color/screen_view_seek_point_highlight"/>
+    </shape>
+</inset>

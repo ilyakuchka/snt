@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Nume</item>
+        <item>Poreclă</item>
+        <item>Telefon</item>
+        <item>E-mail</item>
+        <item>Organizația</item>
+        <item>IM</item>
+        <item>Telefon SIP</item>
+        <item>Ziua de naștere</item>
+        <item>Adresa web</item>
+        <item>Adresă</item>
+        <item>Notă</item>
+        <item>Relația</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maximum</item>
+        <item>2 zile</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Nu este setat</item>
+        <item>1 oră</item>
+        <item>6 ore</item>
+        <item>12 ore</item>
+        <item>1 zi</item>
+        <item>Maximum</item>
+    </array>
+</resources>

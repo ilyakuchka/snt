@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="one">1 tund tagasi</item>
+        <item quantity="other">1 tund tagasi</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="one">%d tund tagasi</item>
+        <item quantity="other">%d tundi tagasi</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="one">Pool tundi tagasi</item>
+        <item quantity="other">Pool tundi tagasi</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="one">%d tunni pärast</item>
+        <item quantity="other">%d tunni pärast</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="one">Poole tunni pärast</item>
+        <item quantity="other">Poole tunni pärast</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="one">Otsekohe</item>
+        <item quantity="other">Otsekohe</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">%d minuti pärast</item>
+        <item quantity="other">%d minuti pärast</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="one">Just nüüd</item>
+        <item quantity="other">Just nüüd</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">%d minut tagasi</item>
+        <item quantity="other">%d minutit tagasi</item>
+    </plurals>
+    <plurals name="batch_delete_confirm_dialog_message">
+        <item quantity="one">Kustuta %1$s sõnum?</item>
+        <item quantity="other">Kustuta %1$s sõnum?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="one">Kustuta %1$s valitud vestlus?</item>
+        <item quantity="other">Kustuta %1$s valitud vestlust?</item>
+    </plurals>
+    <plurals name="group_message_failed_title">
+        <item quantity="one">Ei õnnestunud %d kontaktile saata</item>
+        <item quantity="other">Ei õnnestunud %d kontaktidele saata</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="one">Pool tundi tagasi</item>
+        <item quantity="other">Pool tundi tagasi</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="one">1 tunni pärast</item>
+        <item quantity="other">1 tunni jooksul</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="one">Poole tunni pärast</item>
+        <item quantity="other">Poole tunni pärast</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="one">Kohe</item>
+        <item quantity="other">Kohe</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">1 minuti pärast</item>
+        <item quantity="other">%d minuti pärast</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="one">Just praegu</item>
+        <item quantity="other">Just praegu</item>
+    </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="one">Märgitud kui %2$s %1$d inimese poolt</item>
+        <item quantity="other">Märgitud kui %2$s %1$d inimese poolt</item>
+    </plurals>
+    <plurals name="message_count">
+        <item quantity="one">%1$s sõnum</item>
+        <item quantity="other">%1$s sõnumid</item>
+    </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="one">%d üksus valitud</item>
+        <item quantity="other">%d üksust valitud</item>
+    </plurals>
+    <plurals name="notification_multiple">
+        <item quantity="one">%s teade | </item>
+        <item quantity="other">%s teadet | </item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1 minut tagasi</item>
+        <item quantity="other">%d minutit tagasi</item>
+    </plurals>
+    <plurals name="privacy_state_revoked_revoked_1">
+        <item quantity="one">Võta tagasi (%ds)</item>
+        <item quantity="other">Võta tagasi (%ds)</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="one">%1$s tulemused &quot;%2$s&quot;</item>
+        <item quantity="other">%1$s tulemused &quot;%2$s&quot;</item>
+    </plurals>
+    <plurals name="send_to_count">
+        <item quantity="one">Saadetud %1$s sõnum</item>
+        <item quantity="other">Saadetud %1$s sõnumit</item>
+    </plurals>
+    <plurals name="timed_message_expired_title">
+        <item quantity="one">%d ajalist sõnumit ei saadetud</item>
+        <item quantity="other">%d ajalist sõnumit ei saadetud</item>
+    </plurals>
+    <plurals name="timed_message_in_total">
+        <item quantity="one">(%d sõnum)</item>
+        <item quantity="other">(%d sõnumit)</item>
+    </plurals>
+    <plurals name="to_count">
+        <item quantity="one">%d vastuvõtja</item>
+        <item quantity="other">%d vastuvõtjat</item>
+    </plurals>
+</resources>

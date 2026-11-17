@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Nimi</item>
+        <item>Hüüdnimi</item>
+        <item>Telefon</item>
+        <item>E-post</item>
+        <item>Organisatsioon</item>
+        <item>IM</item>
+        <item>SIP Telefon</item>
+        <item>Sünnipäev</item>
+        <item>Veebilehekülg</item>
+        <item>Aadress</item>
+        <item>Märkus</item>
+        <item>Suhe</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Maksimum</item>
+        <item>2 päeva</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Ei ole sätestatud</item>
+        <item>1 tund</item>
+        <item>6 tundi</item>
+        <item>12 tundi</item>
+        <item>1 päev</item>
+        <item>Maksimum</item>
+    </array>
+</resources>

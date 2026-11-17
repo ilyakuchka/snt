@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contact_entries">
+        <item>Име</item>
+        <item>Прекар</item>
+        <item>Телефон</item>
+        <item>Email</item>
+        <item>Организација</item>
+        <item>IM</item>
+        <item>SIP телефон</item>
+        <item>Роденден</item>
+        <item>Веб страна</item>
+        <item>Адреса</item>
+        <item>Белешка</item>
+        <item>Врска</item>
+    </array>
+    <array name="entries_mms_validity_period">
+        <item>Максимално</item>
+        <item>2 дена</item>
+    </array>
+    <array name="entries_sms_validity_period">
+        <item>Не е поставено</item>
+        <item>1 час</item>
+        <item>6 часа</item>
+        <item>12 часа</item>
+        <item>1 ден</item>
+        <item>Максимално</item>
+    </array>
+</resources>

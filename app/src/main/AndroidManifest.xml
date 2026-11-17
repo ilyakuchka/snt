@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="150000014"
+    android:versionName="15.0.0.14"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    package="com.android.mmt"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14">
+    <uses-sdk
+        android:minSdkVersion="31"
+        android:targetSdkVersion="34"/>
+    <compatible-screens>
+        <screen
+            android:screenSize="small"
+            android:screenDensity="xhdpi"/>
+        <screen
+            android:screenSize="normal"
+            android:screenDensity="xhdpi"/>
+        <screen
+            android:screenSize="large"
+            android:screenDensity="xhdpi"/>
+        <screen
+            android:screenSize="xlarge"
+            android:screenDensity="xhdpi"/>
+    </compatible-screens>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <original-package android:name="com.android.mmt"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.INSTALL_DRM"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SEND_SMS_NO_CONFIRMATION"/>
+    <uses-permission android:name="android.permission.SEND_RESPOND_VIA_MESSAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS"/>
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"
+        android:maxSdkVersion="22"/>
+    <uses-permission android:name="com.miui.yellowpage.permission.ACCESS_YELLOWPAGE"/>
+    <uses-permission android:name="miui.permission.BLE_IMMEDIATE_ALERT"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="com.miui.antispam.permission.DATA_MONTH_REPORT"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="com.miui.antispam.permission.CONTENTPROVIDER"/>
+    <uses-permission android:name="miui.permission.USE_INTERNAL_GENERAL_API"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.xiaomi.permission.SYNC_TAG_DATA"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.xiaomi.simactivate.service.ACTIVATE_SIM"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="com.xiaomi.metok.permission.CONTENTPROVIDER.read"/>
+    <uses-permission android:name="com.miui.notes.permission.ACCESS_NOTE"/>
+    <uses-permission android:name="miui.permission.JOYOSE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM "/>
+    <permission
+        android:name="com.xiaomi.permission.QUERY_MX_STAUTS"
+        android:protectionLevel="signatureOrSystem"/>
+    <permission
+        android:name="com.xiaomi.permission.ACCESS_MMS_NETWORK_STATE"
+        android:protectionLevel="signatureOrSystem"/>
+    <application
+        android:label="@string/app_label"
+        android:icon="@drawable/ic_launcher_mms"
+        android:name="com.android.mmt.MmsApp"
+        android:taskAffinity="android.task.mms"
+        android:allowTaskReparenting="true"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:usesCleartextTraffic="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:requestLegacyExternalStorage="true">
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.2"/>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <service
+            android:name="com.android.mmt.transaction.TransactionService"
+            android:exported="false"
+            android:foregroundServiceType="systemExempted"/>
+        <service
+            android:name="com.android.mmt.transaction.SmsReceiverService"
+            android:exported="false"
+            android:foregroundServiceType="systemExempted"/>
+        <service
+            android:name="com.android.mmt.transaction.SmsReportService"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/MmsTheme.Title.MmsTabActivity"
+            android:label="@string/conversation"
+            android:name="com.android.mmt.ui.MmsTabActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.APP_MESSAGING"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/mms"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android-dir/mms-sms"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity-alias
+            android:name="com.android.mmt.ui.ConversationList"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:targetActivity="com.android.mmt.ui.MmsTabActivity"/>
+        <activity
+            android:theme="@style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.mmt.ui.ComposeMessageRouterActivity"
+            android:exported="true"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android-dir/mms-sms"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="audio/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/ogg"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/x-vcard"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:name="com.android.mmt.ui.ForwardMessageActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:targetActivity="com.android.mmt.ui.ComposeMessageRouterActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:theme="@style/MmsTheme.Title"
+            android:label="@string/shortcut_new_msg"
+            android:name="com.android.mmt.ui.NewMessageActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/MmsTheme.Title.SingleConversation"
+            android:name="com.android.mmt.ui.SingleRecipientConversationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity
+            android:theme="@style/TransparentDialog"
+            android:label="@string/class_0_message_activity"
+            android:name="com.android.mmt.ui.ClassZeroActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity
+            android:theme="@style/MmsTheme.Conversation"
+            android:name="com.android.mmt.ui.MultipleRecipientsConversationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity
+            android:theme="@style/TransparentDialog"
+            android:name="com.android.mmt.ui.NewMessagePopupActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:theme="@style/TransparentDialog"
+            android:name="com.android.mmt.ui.TimedMessageExpiredActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:theme="@style/TransparentDialog"
+            android:label="@string/change_duration_activity"
+            android:name="com.android.mmt.ui.EditSlideDurationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/MmsTheme.Settings.Miuix"
+            android:label="@string/app_label"
+            android:name="com.android.mmt.ui.MessagingPreferenceActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden">
+            <intent-filter android:priority="30">
+                <action android:name="miui.intent.action.APP_SETTINGS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="functionindex"
+                android:resource="@xml/functionindex"/>
+        </activity>
+        <activity
+            android:theme="@style/MmsTheme.Settings.Miuix"
+            android:label="@string/pref_advanced_settings_title"
+            android:name="com.android.mmt.ui.MessagingAdvancedPreferenceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/MmsTheme.Settings.Miuix"
+            android:label="@string/mx_dspt_provision_ex2"
+            android:name="com.android.mmt.ui.PrivacyPolicyPreferenceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/MmsTheme.SlideShow"
+            android:label="@string/slideshow_activity"
+            android:name="com.android.mmt.ui.SlideshowActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/MmsTheme.Title.FlatMessageList"
+            android:label=""
+            android:name="com.android.mmt.ui.FlatMessageListActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity
+            android:theme="@style/MmsTheme.Title.FlatMessageList"
+            android:name="com.android.mmt.ui.PickerActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity
+            android:theme="@style/MmsTheme.Title"
+            android:name="com.android.mmt.ui.PhraseActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity
+            android:theme="@style/TransparentDialog"
+            android:name="com.android.mmt.ui.DeleteMessageDialogActivity"
+            android:taskAffinity="android.task.mms.notification"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:uiOptions="none"/>
+        <receiver
+            android:name="com.android.mmt.transaction.HighPushReceiver"
+            android:permission="android.permission.BROADCAST_WAP_PUSH"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER"/>
+                <data android:mimeType="application/vnd.wap.mms-message"/>
+                <data android:mimeType="application/vnd.wap.sic"/>
+                <data android:mimeType="application/vnd.wap.slc"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/MmsTheme.ManageSimMessage"
+            android:label="@string/sim_manage_messages_title"
+            android:name="com.android.mmt.ui.ManageSimMessages"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.android.mmt.transaction.HighPrivilegedSmsReceiver"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.android.mmt.transaction.SmsReceiver"
+            android:permission="android.permission.SEND_SMS"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="com.android.mmt.transaction.MESSAGE_SENT"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="com.android.mmt.transaction.SEND_MESSAGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.android.mmt.transaction.TimedMessageReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mmt.transaction.TIMED_MESSAGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.android.mmt.transaction.MessageStatusReceiver"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.android.mmt.transaction.MessageStatusReceiver.MESSAGE_STATUS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.android.mmt.transaction.MessageStatusService"/>
+        <receiver
+            android:name="com.android.mmt.transaction.SimFullReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SIM_FULL"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.android.mmt.transaction.SmsRejectedReceiver"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_REJECTED"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/TransparentDialog"
+            android:name="com.android.mmt.ui.ConfirmRateLimitActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.android.mmt.RATE_LIMIT_SURPASSED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/MmsTheme"
+            android:label="@string/search"
+            android:name="com.android.mmt.ui.SearchActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <provider
+            android:name="com.android.mmt.SuggestionsProvider"
+            android:readPermission="android.permission.READ_SMS"
+            android:exported="true"
+            android:authorities="com.android.mmt.SuggestionsProvider">
+            <path-permission
+                android:readPermission="android.permission.GLOBAL_SEARCH"
+                android:pathPrefix="/search_suggest_query"/>
+            <path-permission
+                android:readPermission="android.permission.GLOBAL_SEARCH"
+                android:pathPrefix="/search_suggest_shortcut"/>
+        </provider>
+        <provider
+            android:name="com.android.mmt.provider.MmsSettingsSearchProvider"
+            android:exported="true"
+            android:multiprocess="false"
+            android:authorities="com.android.mmt.provider.MmsSettingsSearchProvider"
+            android:grantUriPermissions="true">
+            <intent-filter>
+                <action android:name="miui.intent.action.SETTINGS_SEARCH_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <service
+            android:name="com.android.mmt.ui.NoConfirmationSendService"
+            android:permission="android.permission.SEND_SMS_NO_CONFIRMATION"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.mmt.intent.action.SENDTO_NO_CONFIRMATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mmt.intent.action.SEND_MMS_NO_CONFIRMATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="mms"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mmt.intent.action.SEND_AND_REMOVE_PENNDING_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.android.mmt.ui.SendRspViaMsgService"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.android.mmt.transaction.SendMessageService"/>
+        <service android:name="com.android.mmt.transaction.CleanFileService"/>
+        <provider
+            android:name="com.miui.smsextra.provider.TempFileProvider"
+            android:exported="false"
+            android:authorities="com.android.mmt.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths"/>
+        </provider>
+        <provider
+            android:name="com.miui.smsextra.provider.PreferencesProvider"
+            android:readPermission="com.xiaomi.permission.ACCESS_MMS_NETWORK_STATE"
+            android:exported="true"
+            android:multiprocess="false"
+            android:authorities="com.android.mmt.prefprovider"/>
+        <activity
+            android:theme="@style/MmsTheme.ActionBar.NoTitle"
+            android:name="com.android.mmt.ui.MessageFullscreenActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/MmsTheme.Translucent.ActionBar.NoTitle"
+            android:name="com.android.mmt.ui.MessageOriginalTextActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/MmsTheme.Title"
+            android:name="com.android.mmt.ui.StatusReportActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/MmsTheme.Title"
+            android:name="com.android.mmt.ui.MessageSelectCopyTextActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/MmsTheme.Settings.Miuix"
+            android:name="com.android.mmt.ui.SelectCardPreferenceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/MmsTheme.Settings.Miuix"
+            android:name="com.android.mmt.ui.MultiSimPreferenceAcitvity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/MmsTheme.Settings.Miuix"
+            android:name="com.android.mmt.ui.SelectCardListPreferenceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/MmsTheme.Title"
+            android:label=""
+            android:name="com.android.mmt.ui.ServiceProviderConversationListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
+            android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity
+            android:theme="@style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.mmt.ui.DummyActivity"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:theme="@style/MmsTheme.Title"
+            android:name="com.android.mmt.ui.PermissionCheckActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <service
+            android:name="com.android.mmt.transaction.NotificationAssistService"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.mmt.ui.UserAgreementActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:theme="@style/MmsTheme"
+            android:name="com.miui.smsextra.ui.ProxyActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@style/MmsTheme.ActionBar.NoTitle"
+            android:name="com.miui.smsextra.ui.ProxyActivityNoTitle"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <receiver
+            android:name="com.android.mmt.PrivacyStateReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.action.MICLOUD_PRIVACY_DENIED"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/TransparentDialog"
+            android:name="com.android.mmt.ui.TimePickActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.android.mmt.TIME_PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/MmsTheme.Title.SingleConversation"
+            android:label="@string/conversation"
+            android:name="com.android.mmt.util.BlockedParticipantsActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
+            android:uiOptions="splitActionBarWhenNarrow"/>
+        <receiver
+            android:name="com.android.mmt.transaction.NotificationReceiver"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.android.mmt.transaction.NotificationReceiver.NOTIFICATION_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.android.mmt.androidx-startup">
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <meta-data
+            android:name="miuixpreference"
+            android:value="1"/>
+        <meta-data
+            android:name="appcompat"
+            android:value="1"/>
+        <meta-data
+            android:name="miuixbasewidget"
+            android:value="1"/>
+        <meta-data
+            android:name="popupwidget"
+            android:value="1"/>
+        <meta-data
+            android:name="androidbasewidget"
+            android:value="1"/>
+        <meta-data
+            android:name="pickerwidget"
+            android:value="1"/>
+        <meta-data
+            android:name="slidingwidget"
+            android:value="1"/>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <meta-data
+            android:name="haptic"
+            android:value="1"/>
+        <meta-data
+            android:name="graphics"
+            android:value="2"/>
+        <meta-data
+            android:name="core"
+            android:value="2"/>
+        <meta-data
+            android:name="smooth"
+            android:value="1"/>
+        <meta-data
+            android:name="animation"
+            android:value="1"/>
+    </application>
+</manifest>
