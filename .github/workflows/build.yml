@@ -20,6 +20,15 @@ jobs:
         with:
           gradle-version: 8.11.1
 
+      - name: Diagnose values resources
+        continue-on-error: true
+        run: |
+          AAPT2=$(ls -d $ANDROID_HOME/build-tools/*/aapt2 | tail -1)
+          mkdir -p /tmp/out
+          for f in app/src/main/res/values*/*.xml; do
+            $AAPT2 compile "$f" -o /tmp/out 2>&1 | head -3
+          done | sort | uniq -c | sort -rn | head -40
+
       - name: Build debug APK
         run: gradle assembleDebug --stacktrace
 
