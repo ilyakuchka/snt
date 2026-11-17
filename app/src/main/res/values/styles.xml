@@ -40,7 +40,7 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:listChoiceIndicatorSingle">@drawable/miuix_appcompat_btn_radio_arrow</item>
         <item name="android:backgroundDimEnabled">false</item>
-        <item name="android:windowSoftInputMode">0x20</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:buttonBarStyle">@style/Widget.ButtonBar</item>
         <item name="android:buttonBarButtonStyle">@style/Widget.Button</item>
@@ -295,7 +295,7 @@
     <style name="Base.TextAppearance.AppCompat.Menu" parent="@android:style/TextAppearance.Material.Menu">
     </style>
     <style name="Base.TextAppearance.AppCompat.SearchResult" parent="">
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
         <item name="android:textColorHint">?android:attr/textColorHint</item>
     </style>
@@ -742,7 +742,7 @@
         <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
         <item name="android:listDivider">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:windowSoftInputMode">0x20</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
         <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
@@ -887,7 +887,7 @@
         <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
         <item name="android:listDivider">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:windowSoftInputMode">0x20</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
         <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
@@ -908,7 +908,7 @@
         <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
         <item name="android:listDivider">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:windowSoftInputMode">0x20</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
         <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
@@ -953,7 +953,7 @@
         <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionBar" parent="">
-        <item name="android:gravity">0x10</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
         <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
         <item name="background">@null</item>
@@ -1010,7 +1010,7 @@
         <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
     </style>
     <style name="Base.Widget.AppCompat.ActivityChooserView" parent="">
-        <item name="android:gravity">0x11</item>
+        <item name="android:gravity">center</item>
         <item name="android:background">@drawable/abc_ab_share_pack_mtrl_alpha</item>
         <item name="divider">?attr/dividerVertical</item>
         <item name="dividerPadding">6dp</item>
@@ -1067,8 +1067,8 @@
     <style name="Base.Widget.AppCompat.DropDownItem.Spinner" parent="@android:style/Widget.Material.DropDownItem.Spinner">
     </style>
     <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
-        <item name="android:breakStrategy">0</item>
-        <item name="android:hyphenationFrequency">0</item>
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
     </style>
     <style name="Base.Widget.AppCompat.ImageButton" parent="@android:style/Widget.Material.ImageButton">
     </style>
@@ -1152,8 +1152,8 @@
     <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined">
     </style>
     <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
-        <item name="android:breakStrategy">1</item>
-        <item name="android:hyphenationFrequency">0</item>
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
     </style>
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="@android:style/Widget.Material.TextView.SpinnerItem">
     </style>
@@ -1162,7 +1162,7 @@
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="@android:style/Widget.Material.Toolbar.Button.Navigation">
     </style>
     <style name="BookmarkListItem" parent="">
-        <item name="android:gravity">0x10</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:paddingTop">@dimen/bookmark_list_item_padding_v</item>
         <item name="android:paddingBottom">@dimen/bookmark_list_item_padding_v</item>
         <item name="android:paddingStart">@dimen/bookmark_list_item_padding_h</item>
@@ -1198,41 +1198,41 @@
     </style>
     <style name="CollapseSubtitleStyle" parent="">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.WindowTitle.Subtitle</item>
-        <item name="android:ellipsize">3</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:singleLine">true</item>
     </style>
     <style name="CollapseTitleStyle" parent="">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.WindowTitle</item>
-        <item name="android:ellipsize">3</item>
+        <item name="android:ellipsize">end</item>
         <item name="android:focusable">true</item>
         <item name="android:focusableInTouchMode">true</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:singleLine">true</item>
     </style>
     <style name="DialogPanelStyle" parent="">
-        <item name="android:layout_gravity">0x11</item>
-        <item name="android:orientation">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
         <item name="android:paddingTop">@dimen/miuix_appcompat_dialog_panel_vertical_padding</item>
         <item name="android:paddingBottom">@dimen/miuix_appcompat_dialog_panel_vertical_padding</item>
         <item name="android:clickable">true</item>
-        <item name="android:importantForAccessibility">2</item>
+        <item name="android:importantForAccessibility">no</item>
     </style>
     <style name="ExpandSubtitleStyle" parent="">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.WindowTitle.Subtitle.Expand</item>
-        <item name="android:ellipsize">3</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="ExpandTitleStyle" parent="">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.WindowTitle.Expand</item>
-        <item name="android:ellipsize">3</item>
+        <item name="android:ellipsize">end</item>
         <item name="android:focusable">true</item>
         <item name="android:focusableInTouchMode">true</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="HomeButtonStyle" parent="">
         <item name="android:background">?android:attr/homeAsUpIndicator</item>
@@ -1255,7 +1255,7 @@
         <item name="immersionWindowBackground">@drawable/miuix_appcompat_immersion_window_bg_light</item>
     </style>
     <style name="ListItem" parent="">
-        <item name="android:gravity">0x10</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:background">?attr/listViewItemBackground</item>
         <item name="android:paddingTop">@dimen/list_item_padding_outer_v</item>
         <item name="android:paddingBottom">@dimen/list_item_padding_outer_v</item>
@@ -1264,7 +1264,7 @@
     </style>
     <style name="MessageButton" parent="">
         <item name="android:textSize">@dimen/text_font_size_small</item>
-        <item name="android:layout_gravity">0x11</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:singleLine">true</item>
     </style>
     <style name="MessageButton.Alert" parent="@style/MessageButton">
@@ -1302,7 +1302,7 @@
     </style>
     <style name="Miuix.AppCompat.TextAppearance" parent="">
         <item name="android:textSize">@dimen/miuix_appcompat_secondary_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/textColorNormal</item>
         <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
         <item name="android:textColorHint">?android:attr/textColorHint</item>
@@ -1338,7 +1338,7 @@
     </style>
     <style name="Miuix.AppCompat.TextAppearance.EditItemLabel" parent="@style/Miuix.AppCompat.TextAppearance">
         <item name="android:textSize">@dimen/miuix_appcompat_secondary_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/miuix_appcompat_spinner_edit_item_label</item>
     </style>
     <style name="Miuix.AppCompat.TextAppearance.Large" parent="@style/Miuix.AppCompat.TextAppearance">
@@ -1347,7 +1347,7 @@
     </style>
     <style name="Miuix.AppCompat.TextAppearance.List" parent="@style/Miuix.AppCompat.TextAppearance">
         <item name="android:textSize">@dimen/miuix_appcompat_normal_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/textColorList</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
@@ -1359,7 +1359,7 @@
     </style>
     <style name="Miuix.AppCompat.TextAppearance.List.Secondary" parent="@style/Miuix.AppCompat.TextAppearance.List">
         <item name="android:textSize">@dimen/miuix_appcompat_secondary_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/textColorListSecondary</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
@@ -1387,7 +1387,7 @@
     </style>
     <style name="Miuix.AppCompat.TextAppearance.NavigationPreference" parent="@style/Miuix.AppCompat.TextAppearance">
         <item name="android:textSize">@dimen/miuix_preference_normal_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/preferenceNavigationTextColor</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
@@ -1404,7 +1404,7 @@
     </style>
     <style name="Miuix.AppCompat.TextAppearance.PreferenceList" parent="@style/Miuix.AppCompat.TextAppearance">
         <item name="android:textSize">@dimen/miuix_preference_normal_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/preferencePrimaryTextColor</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
@@ -1450,12 +1450,12 @@
     </style>
     <style name="Miuix.AppCompat.TextAppearance.Widget.Button" parent="@style/Miuix.AppCompat.TextAppearance.Widget">
         <item name="android:textSize">@dimen/miuix_appcompat_button_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/textColorButton</item>
     </style>
     <style name="Miuix.AppCompat.TextAppearance.Widget.EditText" parent="">
         <item name="android:textSize">@dimen/miuix_appcompat_edit_text_font_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?android:attr/editTextColor</item>
         <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
         <item name="android:textColorHint">?attr/editTextColorHint</item>
@@ -1469,12 +1469,12 @@
     </style>
     <style name="Miuix.AppCompat.TextAppearance.Widget.List" parent="@style/Miuix.AppCompat.TextAppearance.Widget">
         <item name="android:textSize">@dimen/miuix_appcompat_normal_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/textColorList</item>
     </style>
     <style name="Miuix.AppCompat.TextAppearance.Widget.List.Secondary" parent="@style/Miuix.AppCompat.TextAppearance.Widget.List">
         <item name="android:textSize">@dimen/miuix_appcompat_secondary_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/textColorListSecondary</item>
     </style>
     <style name="Miuix.AppCompat.TextAppearance.WindowTitle" parent="@style/Miuix.AppCompat.TextAppearance">
@@ -1493,11 +1493,11 @@
     </style>
     <style name="Miuix.AppCompat.TextAppearance.WindowTitle.Large.Subtitle" parent="@style/Miuix.AppCompat.TextAppearance.WindowTitle.Large">
         <item name="android:textSize">@dimen/miuix_appcompat_secondary_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
     </style>
     <style name="Miuix.AppCompat.TextAppearance.WindowTitle.Subtitle" parent="@style/Miuix.AppCompat.TextAppearance.WindowTitle">
         <item name="android:textSize">@dimen/miuix_appcompat_subtitle_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/actionBarSubtitleColor</item>
     </style>
     <style name="Miuix.AppCompat.TextAppearance.WindowTitle.Subtitle.Expand" parent="@style/Miuix.AppCompat.TextAppearance.WindowTitle.Subtitle">
@@ -1646,7 +1646,7 @@
         <item name="android:titleTextStyle">@style/MmsTheme.SingleConversation.ActionBar.TitleStyle</item>
     </style>
     <style name="MmsTheme.SingleConversation.ActionBar.TitleStyle" parent="@style/TextAppearance.Title">
-        <item name="android:ellipsize">4</item>
+        <item name="android:ellipsize">marquee</item>
         <item name="android:focusable">true</item>
         <item name="android:focusableInTouchMode">true</item>
         <item name="android:addStatesFromChildren">false</item>
@@ -1890,7 +1890,7 @@
         <item name="android:textAppearance">?android:attr/textAppearanceListItemSecondary</item>
     </style>
     <style name="PreferenceThemeOverlay" parent="">
-        <item name="android:scrollbars">0x200</item>
+        <item name="android:scrollbars">vertical</item>
         <item name="checkBoxPreferenceStyle">@style/Preference.CheckBoxPreference.Material</item>
         <item name="dialogPreferenceStyle">@style/Preference.DialogPreference.Material</item>
         <item name="dropdownPreferenceStyle">@style/Preference.DropDown.Material</item>
@@ -1913,8 +1913,8 @@
     <style name="ProgressBar" parent="@style/Widget.ProgressBar.Light">
     </style>
     <style name="ProgressBarTextStyle" parent="">
-        <item name="android:gravity">0x11</item>
-        <item name="android:layout_gravity">0x11</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="ProgressBarTextStyle.Large" parent="@style/ProgressBarTextStyle">
@@ -1942,10 +1942,10 @@
         <item name="android:textColor">@color/miuix_appcompat_progressbar_text_color_light</item>
     </style>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="@style/Base.DialogWindowTitle.AppCompat">
-        <item name="android:textAlignment">5</item>
+        <item name="android:textAlignment">viewStart</item>
     </style>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="@android:style/Widget">
-        <item name="android:layout_gravity">0x800013</item>
+        <item name="android:layout_gravity">start|center_vertical</item>
         <item name="android:paddingEnd">8dp</item>
     </style>
     <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" parent="@android:style/Widget">
@@ -1958,18 +1958,18 @@
         <item name="android:layout_marginStart">16dp</item>
     </style>
     <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut" parent="@android:style/Widget">
-        <item name="android:textAlignment">6</item>
+        <item name="android:textAlignment">viewEnd</item>
         <item name="android:layout_marginStart">16dp</item>
     </style>
     <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow" parent="@android:style/Widget">
         <item name="android:layout_marginStart">8dp</item>
     </style>
     <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text" parent="@android:style/Widget">
-        <item name="android:textAlignment">5</item>
+        <item name="android:textAlignment">viewStart</item>
         <item name="android:layout_alignParentStart">true</item>
     </style>
     <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Title" parent="@android:style/Widget">
-        <item name="android:textAlignment">5</item>
+        <item name="android:textAlignment">viewStart</item>
         <item name="android:layout_marginStart">16dp</item>
     </style>
     <style name="RtlOverlay.Widget.AppCompat.Search.DropDown" parent="@android:style/Widget">
@@ -2003,10 +2003,10 @@
     <style name="SecurityAlertTextStyle" parent="">
         <item name="android:textSize">11sp</item>
         <item name="android:textColor">@color/security_alert_hint_text_color</item>
-        <item name="android:gravity">0x11</item>
+        <item name="android:gravity">center</item>
         <item name="android:background">@drawable/security_alert_bg</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/security_alert_margin</item>
         <item name="android:layout_marginBottom">@dimen/security_alert_margin</item>
         <item name="android:lineSpacingExtra">0sp</item>
@@ -2014,8 +2014,8 @@
     <style name="SimIndicatorNumberStyle" parent="@style/Miuix.AppCompat.TextAppearance.Widget.Button">
         <item name="android:textSize">@dimen/send_button_text_font_size</item>
         <item name="android:textColor">@color/sim_indicator_number_color</item>
-        <item name="android:ellipsize">3</item>
-        <item name="android:gravity">0x11</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
         <item name="android:duplicateParentState">true</item>
         <item name="android:singleLine">true</item>
         <item name="android:drawablePadding">5dp</item>
@@ -2023,7 +2023,7 @@
     <style name="SimIndicatorTextStyle" parent="@style/Miuix.AppCompat.TextAppearance.Widget.Button">
         <item name="android:textSize">@dimen/send_button_text_font_size</item>
         <item name="android:textColor">@color/sim_indicator_text_color</item>
-        <item name="android:gravity">0x11</item>
+        <item name="android:gravity">center</item>
         <item name="android:duplicateParentState">true</item>
         <item name="android:drawablePadding">5dp</item>
     </style>
@@ -2142,11 +2142,11 @@
     </style>
     <style name="TextAppearance.DialogTitle.Secondary" parent="@style/TextAppearance.DialogTitle">
         <item name="android:textSize">@dimen/miuix_appcompat_secondary_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
     </style>
     <style name="TextAppearance.DropDownPopupListItem" parent="">
         <item name="android:textSize">@dimen/miuix_appcompat_drop_down_item_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">?android:attr/textColorAlertDialogListItem</item>
         <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
         <item name="android:textColorLink">?android:attr/textColorLink</item>
@@ -2172,12 +2172,12 @@
     </style>
     <style name="TextAppearance.EditText.Recipient" parent="@style/TextAppearance.EditText">
         <item name="android:textSize">@dimen/recipient_text_size</item>
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/recipient_text_color</item>
     </style>
     <style name="TextAppearance.EditText.Recipient.Item" parent="@style/TextAppearance.EditText.Recipient">
         <item name="android:textSize">@dimen/recipient_text_size</item>
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/recipient_text_color</item>
     </style>
     <style name="TextAppearance.EditText.TimeDesc" parent="@style/TextAppearance.EditText">
@@ -2185,7 +2185,7 @@
     </style>
     <style name="TextAppearance.FlatshowPageNo" parent="@style/TextAppearance">
         <item name="android:textSize">@dimen/flatshow_pageno_font_size</item>
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/flatshow_pageno_text_color</item>
         <item name="android:shadowColor">@color/flatshow_pageno_text_shadow_color</item>
         <item name="android:shadowDx">0</item>
@@ -2194,7 +2194,7 @@
     </style>
     <style name="TextAppearance.GuidePopupItem" parent="">
         <item name="android:textSize">@dimen/miuix_appcompat_guide_popup_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
         <item name="android:textColor">@color/miuix_appcompat_guide_popup_item_text_light</item>
         <item name="android:textColorHighlight">?android:attr/textColorHighlight</item>
         <item name="android:textColorLink">?android:attr/textColorLink</item>
@@ -2206,18 +2206,18 @@
     <style name="TextAppearance.List.EmptyView" parent="@style/Miuix.AppCompat.TextAppearance.BlankPage">
     </style>
     <style name="TextAppearance.List.Primary" parent="@style/Miuix.AppCompat.TextAppearance.List.Primary">
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
     </style>
     <style name="TextAppearance.List.Primary.Conversation" parent="@style/Miuix.AppCompat.TextAppearance.List.Primary">
         <item name="android:textSize">@dimen/conversation_list_item_title_text_size</item>
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
     </style>
     <style name="TextAppearance.List.Primary.Highlight" parent="@style/TextAppearance.List.Primary">
         <item name="android:textColor">@color/highlight_text</item>
         <item name="android:textColorLink">@color/highlight_text</item>
     </style>
     <style name="TextAppearance.List.Primary.Normal" parent="@style/TextAppearance.List.Primary">
-        <item name="android:textStyle">0x0</item>
+        <item name="android:textStyle">normal</item>
     </style>
     <style name="TextAppearance.List.Secondary" parent="@style/Miuix.AppCompat.TextAppearance.List.Secondary">
     </style>
@@ -2252,10 +2252,10 @@
         <item name="android:textSize">@dimen/card_original_text_button_text_size</item>
         <item name="android:textColor">@color/understand_button_text</item>
         <item name="android:textColorLink">@color/message_highlight_text_in_color</item>
-        <item name="android:ellipsize">3</item>
-        <item name="android:gravity">0x11</item>
-        <item name="android:layout_width">-1</item>
-        <item name="android:layout_height">-1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:singleLine">true</item>
         <item name="android:layout_weight">1</item>
         <item name="android:paddingStart">@dimen/message_understand_button_padding</item>
@@ -2268,10 +2268,10 @@
         <item name="android:textSize">@dimen/message_bubble_understand_font_size</item>
         <item name="android:textColor">@color/understand_button_text</item>
         <item name="android:textColorLink">@color/message_highlight_text_in_color</item>
-        <item name="android:ellipsize">3</item>
-        <item name="android:gravity">0x11</item>
-        <item name="android:layout_width">-1</item>
-        <item name="android:layout_height">-1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:singleLine">true</item>
         <item name="android:layout_weight">1</item>
         <item name="android:paddingStart">@dimen/message_understand_button_padding</item>
@@ -2290,7 +2290,7 @@
     </style>
     <style name="TextAppearance.MessageCounter" parent="@style/TextAppearance">
         <item name="android:textSize">@dimen/message_edit_counter_text_font_size</item>
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/message_desc_text_color_counter</item>
     </style>
     <style name="TextAppearance.MessageDesc" parent="@style/Miuix.AppCompat.TextAppearance.Small">
@@ -2306,7 +2306,7 @@
     </style>
     <style name="TextAppearance.MessageDesc.BookmarkTitle" parent="@style/TextAppearance.MessageDesc">
         <item name="android:textSize">@dimen/tab_list_from_text_size</item>
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/tab_list_header_title</item>
     </style>
     <style name="TextAppearance.MessageDesc.BubbleDate" parent="@style/TextAppearance.MessageDesc">
@@ -2328,26 +2328,26 @@
         <item name="android:textColor">@color/message_text_out_color</item>
     </style>
     <style name="TextAppearance.MessageSubject" parent="@style/Miuix.AppCompat.TextAppearance.List.Primary">
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColorLink">@color/link_text_color</item>
     </style>
     <style name="TextAppearance.MessageSubject.Alert" parent="@style/TextAppearance.MessageSubject">
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/message_text_alert_color</item>
         <item name="android:textColorLink">@color/message_highlight_text_alert_color</item>
     </style>
     <style name="TextAppearance.MessageSubject.Highlight" parent="@style/TextAppearance.MessageSubject">
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/highlight_text</item>
         <item name="android:textColorLink">@color/highlight_text</item>
     </style>
     <style name="TextAppearance.MessageSubject.In" parent="@style/TextAppearance.MessageSubject">
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/message_text_in_color</item>
         <item name="android:textColorLink">@color/message_highlight_text_in_color</item>
     </style>
     <style name="TextAppearance.MessageSubject.Out" parent="@style/TextAppearance.MessageSubject">
-        <item name="android:textStyle">0x1</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/message_text_out_color</item>
         <item name="android:textColorLink">@color/message_highlight_text_out_color</item>
     </style>
@@ -2687,7 +2687,7 @@
         <item name="android:windowAnimationStyle">@style/Animation.Dialog</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:windowSoftInputMode">0x20</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:windowCloseOnTouchOutside">false</item>
         <item name="startingWindowOverlay">@null</item>
         <item name="windowActionBarMovable">false</item>
@@ -2993,7 +2993,7 @@
         <item name="android:windowAnimationStyle">@style/Animation.Dialog</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:windowSoftInputMode">0x20</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:windowCloseOnTouchOutside">false</item>
         <item name="startingWindowOverlay">@null</item>
         <item name="windowActionBarMovable">false</item>
@@ -3110,7 +3110,7 @@
         <item name="android:forceDarkAllowed">false</item>
     </style>
     <style name="V12.PreferenceThemeOverlay" parent="@style/PreferenceThemeOverlay">
-        <item name="android:scrollbars">0x200</item>
+        <item name="android:scrollbars">vertical</item>
         <item name="android:divider">@null</item>
         <item name="android:dividerHeight">@dimen/miuix_divider_height</item>
         <item name="checkBoxPreferenceStyle">@style/Miuix.Preference.CheckBoxPreference</item>
@@ -3219,7 +3219,7 @@
     <style name="VerticalDividerStyle" parent="">
         <item name="android:background">@color/resend_divider_color</item>
         <item name="android:layout_width">1px</item>
-        <item name="android:layout_height">-1</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:layout_marginTop">@dimen/vertical_divider_marginTop</item>
         <item name="android:layout_marginBottom">@dimen/vertical_divider_marginTop</item>
         <item name="android:layout_marginStart">@dimen/vertical_divider_marginLeft</item>
@@ -3316,21 +3316,21 @@
         <item name="android:textColor">@color/miuix_appcompat_action_bar_tab_text_light</item>
     </style>
     <style name="Widget.ActionBar.TabView" parent="@style/Widget">
-        <item name="android:gravity">0x11</item>
+        <item name="android:gravity">center</item>
         <item name="android:background">@drawable/miuix_appcompat_action_bar_tab_bg</item>
         <item name="android:layout_weight">@integer/action_bar_tab_layout_weight</item>
     </style>
     <style name="Widget.ActionBar.TabView.Expand" parent="@style/Widget.ActionBar.TabView">
-        <item name="android:gravity">0x800013</item>
+        <item name="android:gravity">start|center_vertical</item>
         <item name="android:background">@null</item>
     </style>
     <style name="Widget.ActionBar.TabView.Secondary" parent="@style/Widget.ActionBar.TabView">
-        <item name="android:gravity">0x800013</item>
+        <item name="android:gravity">start|center_vertical</item>
         <item name="android:background">@null</item>
     </style>
     <style name="Widget.ActionBarButtonIconStyle" parent="@style/Widget">
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">1</item>
         <item name="android:shadowRadius">1</item>
@@ -3339,10 +3339,10 @@
     <style name="Widget.ActionBarButtonTextStyle" parent="@style/Widget">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.Widget.ActionButton</item>
         <item name="android:textSize">@dimen/miuix_appcompat_small_text_size</item>
-        <item name="android:ellipsize">3</item>
-        <item name="android:gravity">0x31</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">@dimen/miuix_appcompat_action_mode_title_margin_bottom</item>
         <item name="android:singleLine">true</item>
         <item name="android:shadowDx">0</item>
@@ -3361,13 +3361,13 @@
     <style name="Widget.ActionButton" parent="@style/Widget">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.Widget.ActionButton</item>
         <item name="android:textSize">@dimen/miuix_appcompat_small_text_size</item>
-        <item name="android:ellipsize">3</item>
-        <item name="android:gravity">0x31</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top|center_horizontal</item>
         <item name="android:background">@drawable/miuix_appcompat_action_button_bg</item>
         <item name="android:paddingTop">@dimen/miuix_appcompat_action_button_bg_top_padding</item>
         <item name="android:paddingBottom">@dimen/miuix_appcompat_action_button_bg_bottom_padding</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:singleLine">true</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">1</item>
@@ -3391,11 +3391,11 @@
         <item name="android:drawableTop">@drawable/miuix_appcompat_action_mode_button_more_light</item>
     </style>
     <style name="Widget.ActionMenu" parent="@style/Widget">
-        <item name="android:gravity">0x11</item>
-        <item name="android:orientation">0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
         <item name="android:layoutAnimation">@anim/action_menu_in</item>
-        <item name="android:layout_width">-1</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="splitActionBarOverlayHeight">@dimen/split_action_bar_overlay_height</item>
     </style>
     <style name="Widget.ActionMode" parent="@style/Widget">
@@ -3411,9 +3411,9 @@
     <style name="Widget.ActionMode.ActionButton" parent="@style/Widget.ActionButton">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.Widget.ActionMode.Button</item>
         <item name="android:textSize">@dimen/miuix_appcompat_small_text_size</item>
-        <item name="android:gravity">0x31</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:singleLine">true</item>
     </style>
     <style name="Widget.ActionMode.ActionButton.Dark" parent="@style/Widget.ActionMode.ActionButton">
@@ -3438,8 +3438,8 @@
     <style name="Widget.ActionMode.Button" parent="@android:style/Widget.Button">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.Widget.ActionMode.Title.Button</item>
         <item name="android:textSize">@dimen/miuix_appcompat_secondary_text_size</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:minWidth">0dp</item>
         <item name="android:minHeight">0dp</item>
         <item name="android:text">@android:string/cancel</item>
@@ -3674,13 +3674,13 @@
         <item name="android:completionThreshold">2</item>
         <item name="android:dropDownSelector">@android:color/transparent</item>
         <item name="android:popupBackground">@drawable/miuix_appcompat_auto_complete_text_popup_background</item>
-        <item name="android:dropDownWidth">-2</item>
+        <item name="android:dropDownWidth">wrap_content</item>
         <item name="android:dropDownHorizontalOffset">0dp</item>
         <item name="android:dropDownVerticalOffset">0dp</item>
     </style>
     <style name="Widget.AutoCompleteTextView.Search" parent="@style/Widget.AutoCompleteTextView">
         <item name="android:background">@drawable/miuix_appcompat_edit_text_search_normal_light</item>
-        <item name="android:imeOptions">0x3</item>
+        <item name="android:imeOptions">actionSearch</item>
         <item name="android:drawableEnd">@drawable/miuix_appcompat_edit_text_search_clear_btn_light</item>
     </style>
     <style name="Widget.Button" parent="@android:style/Widget.Button">
@@ -3694,8 +3694,8 @@
         <item name="miuixSelectGroupButtonBackground">?attr/selectorButtonBackground</item>
     </style>
     <style name="Widget.Button.Dialog" parent="@style/Widget.Button">
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">@dimen/miuix_appcompat_dialog_button_vertical_margin</item>
         <item name="android:layout_marginStart">@dimen/miuix_appcompat_dialog_button_horizontal_margin</item>
         <item name="android:layout_marginEnd">@dimen/miuix_appcompat_dialog_button_horizontal_margin</item>
@@ -3780,7 +3780,7 @@
         <item name="android:textSize">@dimen/miuix_appcompat_dialog_checkbox_text_size</item>
         <item name="android:textColor">?attr/dialogCheckBoxTextColor</item>
         <item name="android:button">@null</item>
-        <item name="android:textDirection">5</item>
+        <item name="android:textDirection">locale</item>
         <item name="buttonCompat">@null</item>
         <item name="drawableStartCompat">?attr/dialogCheckBoxDrawableStart</item>
     </style>
@@ -3822,8 +3822,8 @@
         <item name="android:textSize">@dimen/miuix_appcompat_date_picker_text_size</item>
         <item name="android:focusable">true</item>
         <item name="android:focusableInTouchMode">true</item>
-        <item name="android:layout_width">-2</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="lunarCalendar">false</item>
     </style>
@@ -3838,12 +3838,12 @@
     <style name="Widget.DialogTitle" parent="@style/Widget">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.DialogTitle</item>
         <item name="android:textColor">?attr/dialogTitleTextColor</item>
-        <item name="android:gravity">0x11</item>
+        <item name="android:gravity">center</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="Widget.DropDownItem" parent="@style/Widget">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.AlertDialogListItem.SingleChoice</item>
-        <item name="android:gravity">0x10</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:paddingStart">@dimen/miuix_appcompat_list_preferred_item_padding_left</item>
         <item name="android:paddingEnd">@dimen/miuix_appcompat_list_preferred_item_padding_right</item>
     </style>
@@ -3877,13 +3877,13 @@
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.Widget.EditText</item>
         <item name="android:textColor">?android:attr/editTextColor</item>
         <item name="android:textColorHint">?attr/editTextColorHint</item>
-        <item name="android:gravity">0x800013</item>
+        <item name="android:gravity">start|center_vertical</item>
         <item name="android:background">@drawable/miuix_appcompat_edit_text_bg_light</item>
         <item name="android:singleLine">true</item>
         <item name="android:textSelectHandleLeft">@drawable/miuix_appcompat_text_select_handle_left</item>
         <item name="android:textSelectHandleRight">@drawable/miuix_appcompat_text_select_handle_right</item>
         <item name="android:textSelectHandle">@drawable/miuix_appcompat_text_select_handle_middle</item>
-        <item name="android:textAlignment">5</item>
+        <item name="android:textAlignment">viewStart</item>
         <item name="textHandleAndCursorColor">@color/miuix_appcompat_handle_and_cursor_color</item>
     </style>
     <style name="Widget.EditText.Clearable" parent="@style/Widget.EditText">
@@ -3909,7 +3909,7 @@
         <item name="android:textColor">?attr/searchEditTextColor</item>
         <item name="android:textColorHint">?attr/searchEditTextHintColor</item>
         <item name="android:background">?attr/searchEditTextBackground</item>
-        <item name="android:imeOptions">0x3</item>
+        <item name="android:imeOptions">actionSearch</item>
     </style>
     <style name="Widget.FilterSortTabView" parent="">
         <item name="android:background">@drawable/miuix_appcompat_filter_sort_tab_view_bg_normal</item>
@@ -3970,7 +3970,7 @@
     <style name="Widget.ListPopupWindow" parent="@style/Widget.PopupWindow">
     </style>
     <style name="Widget.ListView" parent="@android:style/Widget.ListView">
-        <item name="android:fadingEdge">0x0</item>
+        <item name="android:fadingEdge">none</item>
         <item name="android:clipChildren">false</item>
         <item name="android:listSelector">@android:color/transparent</item>
         <item name="android:drawSelectorOnTop">false</item>
@@ -3978,14 +3978,14 @@
         <item name="android:divider">@null</item>
     </style>
     <style name="Widget.ListView.Item" parent="@style/Widget">
-        <item name="android:gravity">0x800013</item>
+        <item name="android:gravity">start|center_vertical</item>
         <item name="android:background">?attr/listViewItemBackground</item>
-        <item name="android:layout_width">-1</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="Widget.ListView.Item.DoubleLine" parent="@style/Widget.ListView.Item">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.List.Primary</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/miuix_appcompat_list_preferred_item_height</item>
         <item name="android:singleLine">true</item>
     </style>
@@ -4000,11 +4000,11 @@
         <item name="android:textSize">@dimen/miuix_appcompat_drop_down_item_text_size</item>
         <item name="android:textColor">?attr/immersionTextColor</item>
         <item name="android:background">?attr/immersionViewItemBackground</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="Widget.ListView.Item.SingleLine" parent="@style/Widget.ListView.Item">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.List</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/miuix_appcompat_list_preferred_item_height_small</item>
         <item name="android:singleLine">true</item>
     </style>
@@ -4013,7 +4013,7 @@
     </style>
     <style name="Widget.ListView.Item.TripleLine" parent="@style/Widget.ListView.Item">
         <item name="android:textAppearance">@style/Miuix.AppCompat.TextAppearance.List.Primary</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/miuix_appcompat_list_preferred_item_height_large</item>
         <item name="android:singleLine">true</item>
     </style>
@@ -4061,7 +4061,7 @@
     <style name="Widget.NumberPicker" parent="">
         <item name="android:textColorHighlight">@color/miuix_appcompat_number_picker_highlight_color</item>
         <item name="android:textColorHint">@color/miuix_appcompat_number_picker_hint_color</item>
-        <item name="android:orientation">1</item>
+        <item name="android:orientation">vertical</item>
         <item name="android:background">@drawable/miuix_appcompat_number_picker_bg</item>
         <item name="android:labelTextSize">@dimen/miuix_appcompat_number_picker_label_text_size</item>
         <item name="labelPadding">@dimen/miuix_appcompat_number_picker_label_padding</item>
@@ -4193,10 +4193,10 @@
         <item name="android:isIndicator">false</item>
     </style>
     <style name="Widget.SearchActionMode" parent="@style/Widget">
-        <item name="android:gravity">0x800013</item>
+        <item name="android:gravity">start|center_vertical</item>
         <item name="android:background">?attr/miuixAppcompatSearchModeBackground</item>
-        <item name="android:layout_width">-1</item>
-        <item name="android:layout_height">-2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="Widget.SearchActionMode.Input" parent="@style/Widget.SearchActionMode">
         <item name="android:background">?attr/searchActionModeInputBackground</item>
@@ -4231,7 +4231,7 @@
     </style>
     <style name="Widget.SlidingButton" parent="">
         <item name="android:background">@drawable/miuix_appcompat_sliding_btn_bg_light</item>
-        <item name="android:layerType">2</item>
+        <item name="android:layerType">hardware</item>
         <item name="barOff">@drawable/miuix_appcompat_sliding_btn_bar_off_light</item>
         <item name="barOn">@drawable/miuix_appcompat_sliding_btn_bar_on_light</item>
         <item name="frame">@drawable/miuix_appcompat_sliding_btn_frame_light</item>
@@ -4241,7 +4241,7 @@
     </style>
     <style name="Widget.SlidingButton.Dark" parent="@style/Widget.SlidingButton">
         <item name="android:background">@drawable/miuix_appcompat_sliding_btn_bg_dark</item>
-        <item name="android:layerType">2</item>
+        <item name="android:layerType">hardware</item>
         <item name="barOff">@drawable/miuix_appcompat_sliding_btn_bar_off_dark</item>
         <item name="barOn">@drawable/miuix_appcompat_sliding_btn_bar_on_dark</item>
         <item name="frame">@drawable/miuix_appcompat_sliding_btn_frame_dark</item>
@@ -4255,7 +4255,7 @@
         <item name="android:background">@android:color/transparent</item>
         <item name="android:dropDownSelector">@android:color/transparent</item>
         <item name="android:popupBackground">?attr/immersionWindowBackground</item>
-        <item name="android:dropDownWidth">-2</item>
+        <item name="android:dropDownWidth">wrap_content</item>
         <item name="android:dropDownHeight">@dimen/miuix_appcompat_list_preferred_item_height_small</item>
         <item name="android:dropDownHorizontalOffset">0dp</item>
         <item name="android:dropDownVerticalOffset">0dp</item>
@@ -4266,7 +4266,7 @@
     <style name="Widget.StateEditText" parent="@style/Widget.EditText">
         <item name="android:textColor">?android:attr/editTextColor</item>
         <item name="android:textColorHint">?attr/editTextColorHint</item>
-        <item name="android:gravity">0x800015</item>
+        <item name="android:gravity">end|center_vertical</item>
         <item name="miuixAppcompatWidgetPadding">@dimen/miuix_appcompat_state_edit_widget_padding</item>
     </style>
     <style name="Widget.StateEditText.Dark" parent="@style/Widget.StateEditText">
@@ -4291,13 +4291,13 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
         <item name="android:windowExitAnimation">@android:anim/fade_out</item>
-        <item name="android:windowSoftInputMode">0x20</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:windowShowWallpaper">false</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowActionBar">false</item>
     </style>
     <style name="smart_card_normal_text" parent="">
-        <item name="android:ellipsize">3</item>
+        <item name="android:ellipsize">end</item>
         <item name="android:maxEms">8</item>
         <item name="android:singleLine">true</item>
     </style>

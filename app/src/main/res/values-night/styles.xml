@@ -93,12 +93,12 @@
         <item name="android:textSize">@dimen/message_bubble_understand_font_size</item>
         <item name="android:textColor">@color/understand_button_text</item>
         <item name="android:textColorLink">@color/message_highlight_text_in_color</item>
-        <item name="android:ellipsize">3</item>
-        <item name="android:gravity">0x11</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
         <item name="android:paddingLeft">@dimen/message_understand_button_padding</item>
         <item name="android:paddingRight">@dimen/message_understand_button_padding</item>
-        <item name="android:layout_width">-1</item>
-        <item name="android:layout_height">-1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:singleLine">true</item>
         <item name="android:layout_weight">1</item>
     </style>
