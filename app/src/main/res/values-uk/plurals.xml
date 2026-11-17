@@ -121,10 +121,10 @@
         <item quantity="other">Повідомлень: %1$s</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
-        <item quantity="one">Вибрано %d об&apos;єкт</item>
-        <item quantity="few">Вибрано %d об&apos;єкта</item>
-        <item quantity="many">Вибрано %d об&apos;єктів</item>
-        <item quantity="other">Вибрано %d об&apos;єктів</item>
+        <item quantity="one">Вибрано %d об\'єкт</item>
+        <item quantity="few">Вибрано %d об\'єкта</item>
+        <item quantity="many">Вибрано %d об\'єктів</item>
+        <item quantity="other">Вибрано %d об\'єктів</item>
     </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">%s повідомлення | </item>

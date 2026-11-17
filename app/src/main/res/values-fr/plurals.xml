@@ -29,8 +29,8 @@
         <item quantity="other">Dans %d min</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="one">À l&apos;instant</item>
-        <item quantity="other">À l&apos;instant</item>
+        <item quantity="one">À l\'instant</item>
+        <item quantity="other">À l\'instant</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="one">Il y a %d min</item>
@@ -45,8 +45,8 @@
         <item quantity="other">Supprimer %1$s conversations sélectionnées ?</item>
     </plurals>
     <plurals name="group_message_failed_title">
-        <item quantity="one">Impossible d&apos;envoyer à %d contact</item>
-        <item quantity="other">Impossible d&apos;envoyer à %d contacts</item>
+        <item quantity="one">Impossible d\'envoyer à %d contact</item>
+        <item quantity="other">Impossible d\'envoyer à %d contacts</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">Il y a une demi-heure</item>
@@ -69,8 +69,8 @@
         <item quantity="other">dans %d minutes</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
-        <item quantity="one">À l&apos;instant</item>
-        <item quantity="other">À l&apos;instant</item>
+        <item quantity="one">À l\'instant</item>
+        <item quantity="other">À l\'instant</item>
     </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Marqué comme %2$s par %1$d personne</item>
@@ -105,8 +105,8 @@
         <item quantity="other">%1$s messages envoyés</item>
     </plurals>
     <plurals name="timed_message_expired_title">
-        <item quantity="one">%d message programmé n&apos;a pas été envoyé</item>
-        <item quantity="other">%d messages programmés n&apos;ont pas été envoyés</item>
+        <item quantity="one">%d message programmé n\'a pas été envoyé</item>
+        <item quantity="other">%d messages programmés n\'ont pas été envoyés</item>
     </plurals>
     <plurals name="timed_message_in_total">
         <item quantity="one">(%d message)</item>

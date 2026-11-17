@@ -45,8 +45,8 @@
         <item quantity="other">Fshij %1$s biseda të përzgjedhura?</item>
     </plurals>
     <plurals name="group_message_failed_title">
-        <item quantity="one">Mund mund t&apos;i dërgohej %d kontakti</item>
-        <item quantity="other">Mund mund t&apos;u dërgohej %d kontakteve</item>
+        <item quantity="one">Mund mund t\'i dërgohej %d kontakti</item>
+        <item quantity="other">Mund mund t\'u dërgohej %d kontakteve</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">Gjysmë ore më parë</item>

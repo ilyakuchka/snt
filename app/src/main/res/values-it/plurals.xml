@@ -9,16 +9,16 @@
         <item quantity="other">%d ora fa</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
-        <item quantity="one">Mezz&apos;ora fa</item>
-        <item quantity="other">Mezz&apos;ora fa</item>
+        <item quantity="one">Mezz\'ora fa</item>
+        <item quantity="other">Mezz\'ora fa</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
         <item quantity="one">Fra %d ora</item>
         <item quantity="other">Fra %d ora</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
-        <item quantity="one">Tra mezz&apos;ora</item>
-        <item quantity="other">Tra mezz&apos;ora</item>
+        <item quantity="one">Tra mezz\'ora</item>
+        <item quantity="other">Tra mezz\'ora</item>
     </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
         <item quantity="one">Adesso</item>
@@ -49,16 +49,16 @@
         <item quantity="other">Impossibile inviare a %d contatti</item>
     </plurals>
     <plurals name="half_hour_ago">
-        <item quantity="one">Mezz&apos;ora fa</item>
-        <item quantity="other">Mezz&apos;ora fa</item>
+        <item quantity="one">Mezz\'ora fa</item>
+        <item quantity="other">Mezz\'ora fa</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="one">Tra 1 ora</item>
         <item quantity="other">Tra 1 ora</item>
     </plurals>
     <plurals name="in_half_hour">
-        <item quantity="one">Tra mezz&apos;ora</item>
-        <item quantity="other">Tra mezz&apos;ora</item>
+        <item quantity="one">Tra mezz\'ora</item>
+        <item quantity="other">Tra mezz\'ora</item>
     </plurals>
     <plurals name="in_less_than_one_minute">
         <item quantity="one">Adesso</item>

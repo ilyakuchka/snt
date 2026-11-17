@@ -105,7 +105,7 @@
         <item quantity="other">Sent %1$s messages</item>
     </plurals>
     <plurals name="timed_message_expired_title">
-        <item quantity="one">%d timed message haven&apos;t been sent</item>
+        <item quantity="one">%d timed message haven\'t been sent</item>
         <item quantity="other">%d tidsberegnede meldinger har ikke blitt sendt</item>
     </plurals>
     <plurals name="timed_message_in_total">

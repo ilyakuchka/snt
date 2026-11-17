@@ -45,8 +45,8 @@
         <item quantity="other">%1$s টা চয়নিত কথোপকথন বিলোপ কৰিবনে?</item>
     </plurals>
     <plurals name="group_message_failed_title">
-        <item quantity="one">%d টা সম্পৰ্কলৈ প্ৰেৰণ কৰিব পৰা নগ&apos;ল</item>
-        <item quantity="other">%d টা সম্পৰ্কলৈ প্ৰেৰণ কৰিব পৰা নগ&apos;ল</item>
+        <item quantity="one">%d টা সম্পৰ্কলৈ প্ৰেৰণ কৰিব পৰা নগ\'ল</item>
+        <item quantity="other">%d টা সম্পৰ্কলৈ প্ৰেৰণ কৰিব পৰা নগ\'ল</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="one">আধা ঘণ্টা পূৰ্বে</item>

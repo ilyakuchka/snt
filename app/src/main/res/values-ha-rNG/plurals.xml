@@ -105,8 +105,8 @@
         <item quantity="other">An aika sakonni %1$s</item>
     </plurals>
     <plurals name="timed_message_expired_title">
-        <item quantity="one">Ba&apos;a aika sako %d da aka shirya ba</item>
-        <item quantity="other">Ba&apos;a aika sakonni %d da aka shirya ba</item>
+        <item quantity="one">Ba\'a aika sako %d da aka shirya ba</item>
+        <item quantity="other">Ba\'a aika sakonni %d da aka shirya ba</item>
     </plurals>
     <plurals name="timed_message_in_total">
         <item quantity="one">(sako %d)</item>
